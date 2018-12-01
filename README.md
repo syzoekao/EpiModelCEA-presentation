@@ -9,4 +9,3 @@
 * [DAP influences outcomes](DAPoutcome.md)
 * [DAP costs](DAPcost.md)
 * [Use of `data.table` for input parameters](DataTable.md)
-* [Appendix](Appendix.md)
