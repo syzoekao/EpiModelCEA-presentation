@@ -8,17 +8,12 @@
 node_modules/
 
 # Book build output
-_book/*
+_book/
 
 # eBook build output
 *.epub
 *.mobi
 *.pdf
 
-# Ignore Mac DS_Store files
+# Ignore Mac .DS_Store
 .DS_Store
-
-# Ignore sublime files
-*.sublime-project
-*.sublime-workspace
-
