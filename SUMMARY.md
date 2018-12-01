@@ -1,6 +1,11 @@
-# Summary
+# Agenda
 * [Agenda](README.md)
 * [Objective](objective.md)
 * [Drug assistance program](DAP.md)
 * [Overview of modules modified and added](ModuleSum.md)
+* [PrEP care continuum](PrEP.md)
+* [DAP enrollment](DAPenroll.md)
+* [DAP recertification](DAPrecert.md)
+* [DAP influences outcomes](DAPoutcome.md)
+* [DAP costs](DAPcost.md)
 * [Use of `data.table` for input parameters](DataTable.md)
