@@ -1,0 +1,459 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"boat_d",
+				"boat_d"
+			],
+			[
+				"newT",
+				"newT"
+			],
+			[
+				"EL",
+				"EL"
+			],
+			[
+				"S",
+				"S"
+			],
+			[
+				"rs",
+				"rs"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"time",
+				"time"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"t",
+				"t"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "SUMMARY.md",
+			"settings":
+			{
+				"buffer_size": 96,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 140.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"markdown",
+				"MarkdownLivePreview: Edit Current File"
+			],
+			[
+				"markdownlive",
+				"MarkdownLivePreview: Edit Current File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdow",
+				"Markdown Slideshow"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"virtualenv",
+				"Virtualenv: SublimeREPL - Python"
+			],
+			[
+				"virtu",
+				"Virtualenv: SublimeREPL - Python"
+			],
+			[
+				"virualenv",
+				"Virtualenv: SublimeREPL - Python"
+			],
+			[
+				"virtual",
+				"Virtualenv: SublimeREPL - Python"
+			],
+			[
+				"Virtu",
+				"Virtualenv: SublimeREPL - Python"
+			],
+			[
+				"",
+				"Bookmarks: Select Next"
+			],
+			[
+				"vitual",
+				"Virtualenv: SublimeREPL - Python"
+			],
+			[
+				"sublimeREPL",
+				"Virtualenv: SublimeREPL - Python"
+			],
+			[
+				"sublimeRe",
+				"Virtualenv: SublimeREPL - Python"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 467.0,
+		"history":
+		[
+			"print sys.version",
+			"print(sys.version)",
+			"import sys",
+			"print(sys.version)",
+			"print sys.version",
+			"import sys",
+			"print(\"hello\")",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/szu-yukao/Documents/WHAMP/whamp_R/EpiModelCEA-presentation"
+	],
+	"file_history":
+	[
+		"/Users/szu-yukao/Documents/WHAMP/whamp_R/EpiModelCEA-presentation/SUMMARY.md",
+		"/Users/szu-yukao/Documents/FishProject/virsim/msi_files/simulation.pbs",
+		"/Users/szu-yukao/Documents/FishProject/virsim/msi_files/simulation1.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSimSelf5.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSimSelf.pbs",
+		"/Users/szu-yukao/Documents/FishProject/virsim/lib/python3.6/site-packages/h5py/_hl/files.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSimMH1.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/lib/python3.6/site-packages/statsmodels/genmod/families/links.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSimSelf.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSimSelf1.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSimSelf2.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSimSelf4.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSimSelf3.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/*REPL* [python]",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSimSelfPypy.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/site-packages/UtilFunction.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/site-packages/AdaptMCMC.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/lib/python3.6/site-packages/AdaptMCMC.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/lib/python3.6/site-packages/UtilFunction.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/*REPL* [python]",
+		"/Users/szu-yukao/Documents/FishProject/virsim/virsim.sublime-project",
+		"/Users/szu-yukao/Documents/FishProject/virsim/lib/python3.6/site-packages/notebook/static/components/codemirror/keymap/emacs.js",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/simulation.pbs",
+		"/Users/szu-yukao/Documents/FishProject/virsim/simulation1.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/AdaptMCMC.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/lib/python3.6/site-packages/pymc/StepMethods.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/DataPrep.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSim.pbs",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSim4.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSim3.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSim2.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSim1.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSim.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSimMH4.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/RiskSimMH.pbs",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/traffic1.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/lib/python3.6/site-packages/pyparsing.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/practice.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/Ergm.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/BoaterNet.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/traffic4.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/lib/python3.6/site-packages/RiskSim.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/lib/python3.6/locale.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/traffic.pbs",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/traffic.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/traffic2.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/ergmbatch1.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/ergmbatch2.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/ergmbatch3.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/ergmbatch4.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/bin/ergm1.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/ergmbatch.pbs",
+		"/Users/szu-yukao/Documents/FishProject/virsim/lib/python3.6/site-packages/pymc/MCMC.py",
+		"/Users/szu-yukao/Documents/FishProject/virsim/lib/python3.6/site-packages/notebook/static/notebook/js/main.min.js",
+		"/Users/szu-yukao/Documents/FishProject/virsim/lib/python3.6/site-packages/pandas/tests/io/json/test_ujson.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_lowPN.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_lowPN5.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_lowPN4.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_lowPN3.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_lowPN2.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_lowPN1.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_lowPN.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_lowPN1.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_lowPN5.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_lowPN4.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_lowPN3.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_lowPN2.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_lowPN.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_lowPN5.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_lowPN4.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_lowPN3.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_lowPN2.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_lowPN1.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_null.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_tracing.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_PN.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_EPT.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_EPT5.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_EPT4.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_EPT3.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_EPT2.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_EPT1.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_EPT.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_EPT5.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_EPT4.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_EPT3.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_EPT.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_EPT2.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_EPT1.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_EPT5.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_EPT4.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_EPT3.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_EPT2.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_EPT1.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_PN.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_PN5.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_PN4.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_PN3.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_PN1.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_PN2.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_PN5.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_PN4.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_PN3.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_PN2.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_PN1.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_PN.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_PN5.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_PN4.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_PN3.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_PN2.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_PN1.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_null.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_null5.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_null4.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_null3.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_null2.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Random_null1.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_null5.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_null4.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_null3.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_null2.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/powerLaw_null1.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_null.pbs",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_null5.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_null4.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_null3.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_null2.py",
+		"/Users/szu-yukao/Documents/Network_structure_and_STI/networkSTI/msi files/Community_null1.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "SUMMARY.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1543604127.32,
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "Packages/MarkdownPreview/Markdown.sublime-build",
+	"project": "EpiModelCEA-presentation.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

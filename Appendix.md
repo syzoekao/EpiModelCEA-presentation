@@ -1,2 +1,0 @@
-* [PrEP DAP application form](https://www.doh.wa.gov/Portals/1/Documents/Pubs/150-053-PrEPDAPApplication.pdf)
-* [ADAP application form](https://www.doh.wa.gov/Portals/1/Documents/Pubs/430-024-EIPPaperApplication-July2017.pdf)
