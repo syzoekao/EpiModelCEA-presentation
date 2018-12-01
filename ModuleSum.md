@@ -9,9 +9,9 @@
     - Costs
 
 Color code: 
-1. <fspan style="color:#E55451";>Module added</font>
+1. <font color="red">Module added</font>
 2. <font color="black">Module modified</font>
-3. <font color="#4AA02C">Factors/features to be added</font>
+3. <font color="green">Factors/features to be added</font>
 
 <table>
 <tr><th><strong>Factors/features</strong></th><th><strong>Modification/addition</strong></th><th><strong>Files changed/added</strong></th></tr>
