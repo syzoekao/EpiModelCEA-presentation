@@ -30,11 +30,11 @@ Color code:
 
 <tr><td>Test/trest trajectory</td><td>Test/treat trajectory interacts <br> with insurance type</td><td>mod.initialize.R <br> mod.births.R </td></tr>
 
-<tr><td><div id="PrEP"><u><a href="PrEP.html" style="color: #000000">PrEP awareness</a></u></div></td><td>Depends on both race and income</td><td>mod.prep.R</td></tr>
+<tr><td><div id="PrEP"><u><a href="PrEP.md" style="color: #000000">PrEP awareness</a></u></div></td><td>Depends on both race and income</td><td>mod.prep.R</td></tr>
 
-<tr><td><u><a href="PrEP.html" style="color: #000000">PrEP access</a></u></td><td>Depends on race, income, and insurance</td><td>mod.prep.R</td></tr>
+<tr><td><u><a href="PrEP.md" style="color: #000000">PrEP access</a></u></td><td>Depends on race, income, and insurance</td><td>mod.prep.R</td></tr>
 
-<tr><td colspan=3><div id="DAPenroll"><i><b><u><a href="DAPenroll.html" style="color: #000000">DAP enrollment</a></u></i></div></b></td></tr>
+<tr><td colspan=3><div id="DAPenroll"><i><b><u><a href="DAPenroll.md" style="color: #000000">DAP enrollment</a></u></i></div></b></td></tr>
 
 <tr><td>ADAP enrollment at diagnosis</td><td>Enrollemnt triggered at diagnosis.<br>Depends on income and insurance type.</td><td><font color="#E55451">mod.adap.R</font></td></tr>
 
@@ -42,13 +42,13 @@ Color code:
 
 <tr><td>PDAP enrollment</td><td>Depends on insurance type</td><td>mod.prep.R</td></tr>
 
-<tr><td colspan=3><div id="DAPrecert"><i><b><u><a href="DAPrecert.html" style="color: #000000">DAP recertification</a></u></b></i></div></td></tr>
+<tr><td colspan=3><div id="DAPrecert"><i><b><u><a href="DAPrecert.md" style="color: #000000">DAP recertification</a></u></b></i></div></td></tr>
 
 <tr><td>ADAP recertification and discontinuation</td><td>Recertify at every 6 months.<br>Potential for change in eligibility due to income and insurance changes.</td><td><font color="#E55451">mod.adap.R</font></td></tr>
 
 <tr><td>PDAP recertification and discontinuation</td><td>Recertify every year.<br>Depends on negative test in 90 days, race, risk factors.</td><td>mod.prep.R</td></tr>
 
-<tr><td colspan=3><div id="DAPoutcome"><i><b><u><a href="DAPoutcome.html" style="color: #000000">DAP influences outcomes</a></u></b></i></div></td></tr>
+<tr><td colspan=3><div id="DAPoutcome"><i><b><u><a href="DAPoutcome.md" style="color: #000000">DAP influences outcomes</a></u></b></i></div></td></tr>
 
 <tr><td>Test/treat trajectory</td><td>ADAP causes individuals to change from trajectory 2 to 3 or 4</td><td><font color="#E55451">mod.adap.R</font></td></tr>
 
@@ -58,7 +58,7 @@ Color code:
 
 <tr><td>PrEP initiation</td><td>Depends on risk factors and PDAP attribute</td><td>mod.prep.R</td></tr>
 
-<tr><td colspan=3><div id="DAPcost"><i><b><u><a href="DAPcost.html" style="color: #000000">Costs</a></u></b></i></div></td></tr>
+<tr><td colspan=3><div id="DAPcost"><i><b><u><a href="DAPcost.md" style="color: #000000">Costs</a></u></b></i></div></td></tr>
 
 <tr><td>ADAP client costs</td><td>Premium<br>ART treatment<br>STI testing/treatment costs<br>other healthcare costs</td><td><font color="#E55451">mod.cost.R</font></td></tr>
 
