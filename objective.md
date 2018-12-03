@@ -1,11 +1,10 @@
 # Objective
 
-* The objective of the WHAMP project is to evaluate the ADAP and the PrEP-DAP programs with respect to the cost and effectiveness (e.g., # of HIV infections averated) in the state of Washington. 
-* Demographics such as individuals' income and insurance type are important to accurately calculate the costs because these factors 
-    - Determine the eligibility of the applicants. 
-    - Affect how much the drug assistant program might pay for each enrollee. 
+* The objective of WHAMP is to develop a simulation model of HIV in the state of Washington that can evaluate budget allocation questions related to drug assistance programs for HIV treatment (ART) and prevention (PrEP). 
+* Important features of these drug assistance programs include eligibility criteria, enrollment process, and benefits package (primarily paying client medical expenditures for covered services).
 * Modified the `EpiModelHIV` package (branch `prep-race`) to incoporate the need of cost evaluation for the two programs. 
-* The primary features added to `EpiModelHIV` platform: 
-    - Costs.
-    - Insurance/income characteristics, enrollment in DAP. 
-    - Dependency of other EpiModel processes on these characteristics. 
+* Features added to `EpiModelHIV` platform: 
+    - Costs paid by drug assistance program
+    - Insurance/income characteristics of individuals
+    - Drug assistance program enrollment and disenrollment processes
+    - Influence of drug assistance program benefits on other EpiModel processes
