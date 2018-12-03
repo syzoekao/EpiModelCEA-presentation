@@ -2,7 +2,7 @@
 
 ![CareContinuum](figures/PrEPcont.png)
 
-**Adding PrEP-DAP**
+**WHAMP PrEP care continuum**
 ![PrEPattribute](figures/PrEPattribute.png)
 
 * PrEP awareness and uptake could depend on income, insurance, and risk factors. 
