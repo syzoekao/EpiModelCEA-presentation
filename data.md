@@ -10,7 +10,7 @@ The data sources to inform parameters are as follows:
      - Population: All PrEP-DAP clients
      - Data Collection Methods: Mailed survey
      - Availability: [Summary available](https://www.doh.wa.gov/Portals/1/Documents/Pubs/430-073-WAPrEPDAPClientSurveyKeyFindings2017-English.pdf). More available from WADOH, if needed?
-3. Sam's survey
+3. ARTNET survey
      - Population: All Washington State MSM
      - Data Collection Methods: Online survey
      - Availability: In progress. Soon to be deployed?
@@ -27,7 +27,7 @@ The data sources to inform parameters are as follows:
 # Parameters 
 ## Demographics
 
-Key demographic information include income, insurance status (by income), and insurance provider (by income), all stratified by race (black/white). We will be able to get this information from Sam's survey (3) and compare it to WAHPP (4).
+Key demographic information include income, insurance status (by income), and insurance provider (by income), all stratified by race (black/white). We will be able to get this information from ARTNET (3) and compare it to WAHPP (4).
 
 ## Drug Assistance Program Dynamics
 
