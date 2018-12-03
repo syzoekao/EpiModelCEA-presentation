@@ -1,17 +1,34 @@
 # Drug assistance programs
 
-* HIV drug assistance program (ADAP):
-    - Provides services to help the HIV-positive people obtain healthcare. 
-    - Services include: 
-        + Pay for HIV-related prescription medications. 
-        + Provides assistance in acquiring insurance. 
-        + Provides assistance with insurance premium payments and co-pays on HIV-related medications and office services. 
-    - Eligibility depends on the income and insurance of the individuals. 
-* PrEP drug assistance program (PrEP-DAP): 
-    - Provides medications and healthcare to HIV-negative people who are at risk. 
-    - Services pay for certain PrEP and relevant medication costs such as lab and medical visits. 
-    - Eligibility depends on the income and insurance of the individuals but have different cutoff than ADAP.
-* Eligibility of the two programs depends on income and insurance type of the person, but the criteria are different. 
-    - [ADAP eligibility](http://adap.directory/washington#field_eligibility)
-    - [PrEP decision tree](https://www.doh.wa.gov/Portals/1/Documents/Pubs/150-082-PayingForPrEPDecisionTree.pdf)
+* AIDS drug assistance program (ADAP):
+    - Originally conceived to pay for HIV treatment (ART) for people living with HIV who couldn't afford it
+    - Federally funded, but state-administered
+    - State determines eligibility, enrollment process, and benefits
+    - Following the passage of the affordable care act in 2010, more people had access to insurance that covered ART (Medicaid expansion; elimination of pre-existing condition clauses)
+    - Program goal remains the same (support access to ART), but benefits have changed
 
+* Washington State ADAP
+    - Benefits: 
+        + Provides assistance in acquiring insurance
+        + Pays insurance premiums
+        + Pays client-cost of HIV-related medications and healthcare services (deductibles, cost-sharing, co-pays)
+        + Pays full cost of ART and HIV-related prescription medications for uninsured
+    - [Eligibility](http://adap.directory/washington#field_eligibility) depends on the income and insurance status of the individual
+        + Income <400% Federal Povery Level
+        + Currently uninsired, self-insured, employer-sponsored insurance
+        + Not enrolled in Medicaid, Medicare, VA benefits (which cover ART)
+
+* Washington State PrEP drug assistance program (PrEP-DAP): 
+    - Goal is to support access to PrEP for at-risk HIV-negative individuals
+    - Fully state funded; Washington state was the first to implement
+    - Gilead (pharmaceutical company) already provides patient drug co-pay assistance
+        + Up to $7,200 per year (effective Sept. 1, 2018) for privately-insured
+    - PrEP-DAP Benefits:
+        + Provides assistance in enrolling in Medicaid for those who are eligible
+        + Provides assistance in enrolling in Gilead patient assistance programs
+        + Pays client-cost of lab tests and medical visits needed for PrEP use (quarterly HIV/STI testing, kidney function, etc.)
+        + Pays PrEP co-pays once Gilead benefit is exhausted
+    - [Eligibility](https://www.doh.wa.gov/Portals/1/Documents/Pubs/150-082-PayingForPrEPDecisionTree.pdf) depends on the income and insurance of the individual
+        + Not enrolled in Medicaid (which covers PrEP)
+        + No income cut-off at this time
+    
