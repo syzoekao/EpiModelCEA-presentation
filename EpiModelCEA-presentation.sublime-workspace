@@ -47,7 +47,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 388,
+				"buffer_size": 391,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -56,7 +56,7 @@
 			"file": "data.md",
 			"settings":
 			{
-				"buffer_size": 14,
+				"buffer_size": 708,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -426,20 +426,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 388,
+						"buffer_size": 391,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								388,
-								388
+								391,
+								391
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1543709342.45,
+							"markdonw_live_preview_last_run": 1543861539.71,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -455,7 +455,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14,
+						"buffer_size": 708,
 						"regions":
 						{
 						},
@@ -468,7 +468,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1543709342.44,
+							"markdonw_live_preview_last_run": 1543860695.86,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -497,7 +497,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1543709342.45,
+							"markdonw_live_preview_last_run": 1543860599.61,
 							"parser": "markdown",
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax",
 							"target": "disk"
@@ -528,7 +528,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1543709342.45,
+							"markdonw_live_preview_last_run": 1543860599.61,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -557,7 +557,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1543709342.45,
+							"markdonw_live_preview_last_run": 1543860599.61,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -586,7 +586,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1543709342.45,
+							"markdonw_live_preview_last_run": 1543860599.62,
 							"parser": "github",
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax",
 							"target": "disk"
@@ -617,7 +617,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1543709342.45,
+							"markdonw_live_preview_last_run": 1543860599.61,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -646,7 +646,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1543709342.45,
+							"markdonw_live_preview_last_run": 1543860599.61,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -675,7 +675,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1543709342.45,
+							"markdonw_live_preview_last_run": 1543860599.61,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -706,7 +706,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1543709342.45,
+							"markdonw_live_preview_last_run": 1543860599.62,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
