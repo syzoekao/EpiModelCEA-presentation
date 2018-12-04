@@ -320,57 +320,57 @@
 </li>
 </ol>
 <table>
-<tr><th><strong>Factors/features</strong></th><th><strong>Modification/addition</strong></th><th><strong>Files changed/added</strong></th></tr>
+<tr><th bgcolor="#737CA1"><font color="#FFFFFF"><strong>Factors/features</strong></font></th><th bgcolor="#737CA1"><font color="#FFFFFF"><strong>Modification/addition</strong></font></th><th bgcolor="#737CA1"><font color="#FFFFFF"><strong>Files changed/added</strong></font></th></tr>
 
-<tr><td colspan="3"><i><b>Individual attributes</b></i></td></tr>
+<tr><td colspan="3" bgcolor="#E5E4E2"><i><b>Individual attributes</b></i></td></tr>
 
 <tr><td>Annual income</td><td>Continuous and categorical income</td><td>param.R<br>mod.initialize.R <br> mod.births.R <br> <font color="#E55451">mod.insure_income.R</font></td></tr>
 
-<tr><td>Insurance</td><td>5 levels: Uninsured, Self-pay bronze, Self-pay silver+, employer, government</td><td>params.R <br> mod.initialize.R <br> mod.births.R <br> <font color="#E55451">mod.insure_income.R</font></td></tr>
+<tr><td bgcolor="#FFFFFF">Insurance</td><td bgcolor="#FFFFFF">5 levels: Uninsured, Self-pay bronze, Self-pay silver+, employer, government</td><td bgcolor="#FFFFFF">params.R <br> mod.initialize.R <br> mod.births.R <br> <font color="#E55451">mod.insure_income.R</font></td></tr>
 
 <tr><td><font color="#4AA02C">Region</font></td><td></td><td></td></tr>
 
-<tr><td><font color="#4AA02C">Interaction between age and the factors above</font></td><td></td><td></td></tr>
+<tr><td bgcolor="#FFFFFF"><font color="#4AA02C">Interaction between age and the factors above</font></td><td bgcolor="#FFFFFF"></td><td bgcolor="#FFFFFF"></td></tr>
 
-<tr><td colspan="3"><i><b>Income/insurance influences process</b></i></td></tr>
+<tr><td colspan="3" bgcolor="#E5E4E2"><i><b>Income/insurance influences process</b></i></td></tr>
 
-<tr><td>Test/trest trajectory</td><td>Test/treat trajectory interacts <br> with insurance type</td><td>mod.initialize.R <br> mod.births.R </td></tr>
+<tr><td bgcolor="#FFFFFF">Test/trest trajectory</td><td bgcolor="#FFFFFF">Test/treat trajectory interacts <br> with insurance type</td><td bgcolor="#FFFFFF">mod.initialize.R <br> mod.births.R </td></tr>
 
 <tr><td><div id="PrEP"><u><a href="PrEP.html" style="color: #000000">PrEP awareness</a></u></div></td><td>Depends on both race and income</td><td>mod.prep.R</td></tr>
 
-<tr><td><u><a href="PrEP.html" style="color: #000000">PrEP access</a></u></td><td>Depends on race, income, and insurance</td><td>mod.prep.R</td></tr>
+<tr><td bgcolor="#FFFFFF"><u><a href="PrEP.html" style="color: #000000">PrEP access</a></u></td><td bgcolor="#FFFFFF">Depends on race, income, and insurance</td><td bgcolor="#FFFFFF">mod.prep.R</td></tr>
 
-<tr><td colspan="3"><div id="DAPenroll"><i><b><u><a href="DAPenroll.html" style="color: #000000">DAP enrollment</a></u></b></i></div></td></tr>
+<tr><td colspan="3" bgcolor="#E5E4E2"><div id="DAPenroll"><i><b><u><a href="DAPenroll.html" style="color: #000000">DAP enrollment</a></u></b></i></div></td></tr>
 
-<tr><td>ADAP enrollment at diagnosis</td><td>Enrollemnt triggered at diagnosis.<br>Depends on income and insurance type.</td><td><font color="#E55451">mod.adap.R</font></td></tr>
+<tr><td bgcolor="#FFFFFF">ADAP enrollment at diagnosis</td><td bgcolor="#FFFFFF">Enrollemnt triggered at diagnosis.<br>Depends on income and insurance type.</td><td bgcolor="#FFFFFF"><font color="#E55451">mod.adap.R</font></td></tr>
 
 <tr><td>ADAP enrollment at other times</td><td>Background probability of filing application</td><td><font color="#E55451">mod.adap.R</font></td></tr>
 
-<tr><td>PDAP enrollment</td><td>Depends on insurance type</td><td>mod.prep.R</td></tr>
+<tr><td bgcolor="#FFFFFF">PDAP enrollment</td><td bgcolor="#FFFFFF">Depends on insurance type</td><td bgcolor="#FFFFFF">mod.prep.R</td></tr>
 
-<tr><td colspan="3"><div id="DAPrecert"><i><b><u><a href="DAPrecert.html" style="color: #000000">DAP recertification</a></u></b></i></div></td></tr>
+<tr><td colspan="3" bgcolor="#E5E4E2"><div id="DAPrecert"><i><b><u><a href="DAPrecert.html" style="color: #000000">DAP recertification</a></u></b></i></div></td></tr>
 
-<tr><td>ADAP recertification and discontinuation</td><td>Recertify at every 6 months.<br>Potential for change in eligibility due to income and insurance changes.</td><td><font color="#E55451">mod.adap.R</font></td></tr>
+<tr><td bgcolor="#FFFFFF">ADAP recertification and discontinuation</td><td bgcolor="#FFFFFF">Recertify at every 6 months.<br>Potential for change in eligibility due to income and insurance changes.</td><td bgcolor="#FFFFFF"><font color="#E55451">mod.adap.R</font></td></tr>
 
 <tr><td>PDAP recertification and discontinuation</td><td>Recertify every year.<br>Depends on negative test in 90 days, race, risk factors.</td><td>mod.prep.R</td></tr>
 
-<tr><td colspan="3"><div id="DAPoutcome"><i><b><u><a href="DAPoutcome.html" style="color: #000000">DAP influences outcomes</a></u></b></i></div></td></tr>
+<tr><td colspan="3" bgcolor="#E5E4E2"><div id="DAPoutcome"><i><b><u><a href="DAPoutcome.html" style="color: #000000">DAP influences outcomes</a></u></b></i></div></td></tr>
 
 <tr><td>Test/treat trajectory</td><td>ADAP causes individuals to change from trajectory 2 to 3 or 4</td><td><font color="#E55451">mod.adap.R</font></td></tr>
 
-<tr><td>ART initiation</td><td>ADAP enrollees have higher probability to start ART</td><td>mod.tx.R</td></tr>
+<tr><td bgcolor="#FFFFFF">ART initiation</td><td bgcolor="#FFFFFF">ADAP enrollees have higher probability to start ART</td><td bgcolor="#FFFFFF">mod.tx.R</td></tr>
 
 <tr><td>ART discontinuation/<br>reinitiation</td><td>ADAP enrollees have lower probability to stop ART. <br>ADAP enrollees have higher probability to reinitiate ART. <br>There might be other factors influencing ADAP discontinuation: on treatment, income, and insurance, etc.</td><td>mod.tx.R</td></tr>
 
-<tr><td>PrEP initiation</td><td>Depends on risk factors and PDAP attribute</td><td>mod.prep.R</td></tr>
+<tr><td bgcolor="#FFFFFF">PrEP initiation</td><td bgcolor="#FFFFFF">Depends on risk factors and PDAP attribute</td><td bgcolor="#FFFFFF">mod.prep.R</td></tr>
 
-<tr><td colspan="3"><div id="DAPcost"><i><b><u><a href="DAPcost.html" style="color: #000000">Costs</a></u></b></i></div></td></tr>
+<tr><td colspan="3" bgcolor="#E5E4E2"><div id="DAPcost"><i><b><u><a href="DAPcost.html" style="color: #000000">Costs</a></u></b></i></div></td></tr>
 
-<tr><td>ADAP client costs</td><td>Premium<br>ART treatment<br>STI testing/treatment costs<br>other healthcare costs</td><td><font color="#E55451">mod.cost.R</font></td></tr>
+<tr><td bgcolor="#FFFFFF">ADAP client costs</td><td bgcolor="#FFFFFF">Premium<br>ART treatment<br>STI testing/treatment costs<br>other healthcare costs</td><td bgcolor="#FFFFFF"><font color="#E55451">mod.cost.R</font></td></tr>
 
 <tr><td>PDAP client costs</td><td>Gilead benefit<br>HIV testing costs<br>STI testing/treatment cost<br>Other healthcare costs</td><td><font color="#E55451">mod.cost.R</font></td></tr>
 
-<tr><td><font color="#4AA02C">ADAP assessment costs</font></td><td></td><td></td></tr>
+<tr><td bgcolor="#FFFFFF"><font color="#4AA02C">ADAP assessment costs</font></td><td bgcolor="#FFFFFF"></td><td bgcolor="#FFFFFF"></td></tr>
 
 <tr><td><font color="#4AA02C">PDAP assessment costs</font></td><td></td><td></td></tr>
 
@@ -424,7 +424,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Overview of modules modified and added","level":"1.5","depth":1,"next":{"title":"PrEP care continuum","level":"1.6","depth":1,"path":"PrEP.md","ref":"PrEP.md","articles":[]},"previous":{"title":"Data sources","level":"1.4","depth":1,"path":"data.md","ref":"data.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CEA for EpiModelHIV","links":{"sidebar":{"Github link":"https://github.com/syzoekao/EpiModelHIV-p/tree/EpiModelHIV-CEA"}},"gitbook":"3.2.3","description":"Presentation of coding changes"},"file":{"path":"ModuleSum.md","mtime":"2018-12-01T22:01:49.638Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-03T19:06:24.849Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Overview of modules modified and added","level":"1.5","depth":1,"next":{"title":"PrEP care continuum","level":"1.6","depth":1,"path":"PrEP.md","ref":"PrEP.md","articles":[]},"previous":{"title":"Data sources","level":"1.4","depth":1,"path":"data.md","ref":"data.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CEA for EpiModelHIV","links":{"sidebar":{"Github link":"https://github.com/syzoekao/EpiModelHIV-p/tree/EpiModelHIV-CEA"}},"gitbook":"3.2.3","description":"Presentation of coding changes"},"file":{"path":"ModuleSum.md","mtime":"2018-12-04T01:49:17.127Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-04T03:29:36.803Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -432,10 +432,6 @@
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
-    
-        
-        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>

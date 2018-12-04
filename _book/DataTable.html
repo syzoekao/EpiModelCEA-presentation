@@ -299,12 +299,64 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="use-of-datatable-for-input-parameters">Use of <code>data.table</code> for input parameters</h1>
+                                <h1 id="use-of-datatable-for-managing-parameters">Use of <code>data.table</code> for managing parameters</h1>
 <ul>
-<li>Because of the interactions between demographics, we used <code>data.table</code> (<code>library(data.table)</code>) to manage the parameters. </li>
-<li>The key(s) for each <code>data.table</code> allowed us to look up corresponding values for individuals with varying attributes. </li>
-<li>These keys could be race, income, insurance type, etc.</li>
-<li>For example: </li>
+<li>Model parameters often depend on multiple attributes such as race, income, insurance, etc.</li>
+<li>A complex model could lead to inscreasing interdependency among attributes, resulting in two issues: <ul>
+<li>parameter storage</li>
+<li>parameter accessing</li>
+</ul>
+</li>
+<li>We used <code>data.table</code> (<code>library(data.table)</code>) to reduce the burden of the parameter accessing issue. </li>
+<li>A <code>data.table</code> looks like <code>data.frame</code> with enhanced features. Features that related to parameter accessing are <ul>
+<li>By defining the <strong>key</strong>(s) in <code>data.table</code>, it can look up values corresponding to the key attributes in vector form. </li>
+<li>The speed of data accessing is faster than <code>data.frame</code> and than <code>list</code> (if you setup the keys!). </li>
+<li>It can do some calculation and sampling. </li>
+</ul>
+</li>
+<li>Comparison between <code>data.table</code>, <code>data.frame</code>, <code>list</code>, and <code>matrix</code>. <ul>
+<li><code>data.frame</code> and <code>list</code>: require to access the value for person <em>i</em> to person <em>n</em> one by one. </li>
+<li><code>matrix</code> in <code>R</code> could be very fast but it might not be readable. </li>
+</ul>
+</li>
+</ul>
+<h2 id="example-1-a-simple-example">Example 1 (a simple example):</h2>
+<ul>
+<li>We arranged the input parameter <code>p.adap.traj2to34</code> in <code>data.table</code> (input parameters in <code>param_msm</code> function). <ul>
+<li>This parameter could be different by race. </li>
+</ul>
+</li>
+<li>In the formation of <code>data.table</code>, we set up the race as the <strong>key</strong> of this table. </li>
+</ul>
+<pre><code>&gt; p.adap.traj2to34 = data.table(race = c(&quot;B&quot;, &quot;W&quot;), prop = c(0.5, 0.7), key = c(&quot;race&quot;))
+&gt; print(p.adap.traj2to34)
+   race prop
+1:    B  0.5
+2:    W  0.7
+</code></pre><ul>
+<li>For 10 individuals, we can look up the corresponding <code>prop</code> value based on the race of each individual in the simulation. </li>
+</ul>
+<pre><code>&gt; race.vec = sample(c(&quot;B&quot;, &quot;W&quot;), size = 10, replace = T)
+&gt; print(race.vec)
+[1] &quot;B&quot; &quot;B&quot; &quot;W&quot; &quot;B&quot; &quot;W&quot; &quot;W&quot; &quot;W&quot; &quot;B&quot; &quot;B&quot; &quot;B&quot;
+
+&gt; print(p.adap.traj2to34[race.vec])
+    race prop
+ 1:    B  0.5
+ 2:    B  0.5
+ 3:    W  0.7
+ 4:    B  0.5
+ 5:    W  0.7
+ 6:    W  0.7
+ 7:    W  0.7
+ 8:    B  0.5
+ 9:    B  0.5
+10:    B  0.5
+</code></pre><h2 id="example-2-more-complicated-structure">Example 2 (more complicated structure):</h2>
+<ul>
+<li>A more complicated example: Suppose that the distribution of insurance type depends on income and race. </li>
+<li>In the current code, we managed the input parameter using list and transform the list to <code>data.table</code> in the <code>param_msm</code> function. </li>
+<li>A <code>data.table</code> allows multiple keys. </li>
 </ul>
 <pre><code>dist.insure.type.raw = list(B = matrix(c(0.3, 0, 0, 0, 0.7, 
                                      0.2, 0.6, 0.1, 0, 0.1,
@@ -325,14 +377,9 @@ dist.insure.type = data.table(race = rep(c(&quot;B&quot;, &quot;W&quot;), each =
                               income.cate = rep(c(1:5), 2), 
                               do.call(rbind, dist.insure.type.raw), 
                               key = c(&quot;race&quot;, &quot;income.cate&quot;))
-</code></pre><p>In this table, we set up keys for later use. If we want to seach values for a black man in income category 4. We can provide the values to the table <code>dist.insure.type</code>. </p>
-<pre><code>&gt; ix.race = c(&quot;B&quot;)
-&gt; ix.income = c(4)
-&gt; dist.insure.type[.(ix.race, ix.income)]
-
-   race income.cate uninsured self bronze self non-bronze employer government
-1:    B           4         0         0.1             0.4     0.49       0.01
-</code></pre><p>We can look up values for more people. </p>
+</code></pre><ul>
+<li>We can look up values for each individual based on the information of race and income (categorical income). </li>
+</ul>
 <pre><code>&gt; ix.race = sample(c(&quot;B&quot;, &quot;W&quot;), replace = T, 12)
 &gt; print(ix.race)
  [1] &quot;W&quot; &quot;B&quot; &quot;W&quot; &quot;W&quot; &quot;B&quot; &quot;B&quot; &quot;B&quot; &quot;B&quot; &quot;W&quot; &quot;B&quot; &quot;W&quot; &quot;B&quot;
@@ -368,6 +415,31 @@ dist.insure.type = data.table(race = rep(c(&quot;B&quot;, &quot;W&quot;), each =
 10:         0.0        0.10            0.40     0.49       0.01
 11:         0.0        0.35            0.39     0.25       0.01
 12:         0.0        0.35            0.39     0.25       0.01
+</code></pre><h2 id="example-3-with-sampling">Example 3 (with sampling):</h2>
+<ul>
+<li>Random sample for each individual based on their key attributes. </li>
+</ul>
+<pre><code>&gt; prob.DT = data.table(race = rep(c(&quot;B&quot;, &quot;W&quot;), each = 2), 
++                      income.cate = rep(c(1:2), 2), 
++                        prop = rep(c(0.2, 0.5), 2), 
++                        key = c(&quot;race&quot;, &quot;income.cate&quot;))
+&gt; print(prob.DT)
+   race income.cate prop
+1:    B           1  0.2
+2:    B           2  0.5
+3:    W           1  0.2
+4:    W           2  0.5
+
+&gt; ix.race = sample(c(&quot;B&quot;, &quot;W&quot;), 20, replace = T)
+&gt; print(ix.race)
+[1] &quot;W&quot; &quot;B&quot; &quot;B&quot; &quot;B&quot; &quot;B&quot; &quot;B&quot; &quot;W&quot; &quot;B&quot; &quot;B&quot; &quot;W&quot; &quot;B&quot; &quot;B&quot; &quot;W&quot; &quot;B&quot; &quot;W&quot; &quot;B&quot; &quot;B&quot; &quot;W&quot; &quot;B&quot; &quot;B&quot;
+
+&gt; ix.income.cate = sample(c(1:2), 20, replace = T)
+&gt; print(ix.income.cate)
+[1] 1 1 2 2 2 1 2 1 2 2 2 2 2 2 2 2 2 1 1 2
+
+&gt; prob.DT[.(ix.race, ix.income.cate), rbinom(.N, 1, prop)]
+[1] 0 0 1 1 0 0 1 0 1 0 1 0 0 0 0 0 1 1 0 1
 </code></pre>
                                 
                                 </section>
@@ -411,7 +483,7 @@ dist.insure.type = data.table(race = rep(c(&quot;B&quot;, &quot;W&quot;), each =
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Use of data.table for input parameters","level":"1.11","depth":1,"next":{"title":"Appendix","level":"1.12","depth":1,"path":"Appendix.md","ref":"Appendix.md","articles":[]},"previous":{"title":"DAP costs","level":"1.10","depth":1,"path":"DAPcost.md","ref":"DAPcost.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CEA for EpiModelHIV","links":{"sidebar":{"Github link":"https://github.com/syzoekao/EpiModelHIV-p/tree/EpiModelHIV-CEA"}},"gitbook":"3.2.3","description":"Presentation of coding changes"},"file":{"path":"DataTable.md","mtime":"2018-11-30T19:33:07.731Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-03T19:06:24.849Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Use of data.table for input parameters","level":"1.11","depth":1,"next":{"title":"Appendix","level":"1.12","depth":1,"path":"Appendix.md","ref":"Appendix.md","articles":[]},"previous":{"title":"DAP costs","level":"1.10","depth":1,"path":"DAPcost.md","ref":"DAPcost.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CEA for EpiModelHIV","links":{"sidebar":{"Github link":"https://github.com/syzoekao/EpiModelHIV-p/tree/EpiModelHIV-CEA"}},"gitbook":"3.2.3","description":"Presentation of coding changes"},"file":{"path":"DataTable.md","mtime":"2018-12-04T03:29:05.540Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-04T03:29:36.803Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -419,10 +491,6 @@ dist.insure.type = data.table(race = rep(c(&quot;B&quot;, &quot;W&quot;), each =
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
-    
-        
-        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
