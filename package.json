@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
+    "docs:prepare": "gitbook install",
+    "docs:watch": "npm run docs:prepare && gitbook serve", 
     "docs:build": "npm run docs:prepare && rm -rf _book && gitbook build"
   },
   "author": "",
