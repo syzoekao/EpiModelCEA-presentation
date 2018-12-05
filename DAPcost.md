@@ -11,7 +11,7 @@
         + Gilead benefits
         + Medical and lab visits costs
         + STI treatment costs
-        + other relevante healthcare costs (selective services)
+        + other relevant healthcare costs (selective services)
     - Assessment cost
 
 <a href="ModuleSum.md#DAPcost">Back</a>

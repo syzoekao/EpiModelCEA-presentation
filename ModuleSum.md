@@ -28,7 +28,7 @@ Color code:
 
 <tr><td colspan=3 bgcolor="#E5E4E2"><i><b>Income/insurance influences on process</i></b></td></tr>
 
-<tr><td bgcolor="#FFFFFF">Test/trest trajectory</td><td bgcolor="#FFFFFF">Test/treat trajectory interacts <br> with insurance type</td><td bgcolor="#FFFFFF">mod.initialize.R <br> mod.births.R </td></tr>
+<tr><td bgcolor="#FFFFFF">Test/treat trajectory</td><td bgcolor="#FFFFFF">Test/treat trajectory interacts <br> with insurance type</td><td bgcolor="#FFFFFF">mod.initialize.R <br> mod.births.R </td></tr>
 
 <tr><td><div id="PrEP"><u><a href="PrEP.md" style="color: #000000">PrEP awareness</a></u></div></td><td>Depends on both race and income</td><td>mod.prep.R</td></tr>
 
