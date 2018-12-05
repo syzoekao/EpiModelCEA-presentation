@@ -1,6 +1,6 @@
 # Summary of modules modified and added
 
-* To add the CEA functionality, we added the following groups of factors/features to the `EpiModelHIV` package. 
+* To add the CEA functionality, we added the following groups of factors/features to the `EpiModelHIV` package (`prep-race` branch). 
     - Individual attributes
     - Income and insurance influences on the original process
     - DAP enrollment
