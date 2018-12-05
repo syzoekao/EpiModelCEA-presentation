@@ -2,10 +2,10 @@
 
 * To add the CEA functionality, we added the following groups of factors/features to the `EpiModelHIV` package. 
     - Individual attributes
-    - Income/insurance influences the original process
+    - Income and insurance influences on the original process
     - DAP enrollment
     - DAP recertification
-    - DAP influences outcomes
+    - DAP influence on outcomes
     - Costs
 
 Color code: 
@@ -26,7 +26,7 @@ Color code:
 
 <tr><td bgcolor="#FFFFFF"><font color="#4AA02C">Interaction between age and the factors above</font></td><td bgcolor="#FFFFFF"></td><td bgcolor="#FFFFFF"></td></tr>
 
-<tr><td colspan=3 bgcolor="#E5E4E2"><i><b>Income/insurance influences process</i></b></td></tr>
+<tr><td colspan=3 bgcolor="#E5E4E2"><i><b>Income/insurance influences on process</i></b></td></tr>
 
 <tr><td bgcolor="#FFFFFF">Test/trest trajectory</td><td bgcolor="#FFFFFF">Test/treat trajectory interacts <br> with insurance type</td><td bgcolor="#FFFFFF">mod.initialize.R <br> mod.births.R </td></tr>
 
@@ -48,7 +48,7 @@ Color code:
 
 <tr><td>PDAP recertification and discontinuation</td><td>Recertify every year.<br>Depends on negative test in 90 days, race, risk factors.</td><td>mod.prep.R</td></tr>
 
-<tr><td colspan=3 bgcolor="#E5E4E2"><div id="DAPoutcome"><i><b><u><a href="DAPoutcome.md" style="color: #000000">DAP influences outcomes</a></u></b></i></div></td></tr>
+<tr><td colspan=3 bgcolor="#E5E4E2"><div id="DAPoutcome"><i><b><u><a href="DAPoutcome.md" style="color: #000000">DAP influence on outcomes</a></u></b></i></div></td></tr>
 
 <tr><td>Test/treat trajectory</td><td>ADAP causes individuals to change from trajectory 2 to 3 or 4</td><td><font color="#E55451">mod.adap.R</font></td></tr>
 

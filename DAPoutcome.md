@@ -1,4 +1,4 @@
-# DAP status influences outcomes
+# DAP status influences on outcomes
 
 * Individuals have a DAP attribute, assigned to be "DAP active" for upon successful DAP enrollment
 * ADAP: 
