@@ -16,7 +16,7 @@
 - [Eligibility](http://adap.directory/washington#field_eligibility) depends on the income and insurance status of the individual
     + Income <400% Federal Povery Level
     + Currently uninsired, self-insured, employer-sponsored insurance
-    + Not enrolled in Medicaid, Medicare, VA benefits (which cover ART)
+    + Not enrolled in Medicaid
 
 ## Washington State PrEP drug assistance program (PrEP-DAP): 
 - Goal is to support access to PrEP for at-risk HIV-negative individuals
