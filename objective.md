@@ -6,5 +6,4 @@
 * Features added to `EpiModelHIV` platform: 
     - Costs paid by drug assistance program
     - Insurance/income characteristics of individuals
-    - Drug assistance program enrollment and disenrollment processes
-    - Influence of drug assistance program benefits on other EpiModel processes
+
