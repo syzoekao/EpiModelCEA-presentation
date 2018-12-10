@@ -29,14 +29,16 @@ The data sources to inform parameters are as follows:
           - Adherence on PrEP-DAP program
           - Behavior change for those on PrEP/in PDAP (?)
           - More?
-4. Washington HIV Prevention Project (WAHPP)
-     - Population: All Washington State MSM
+4. Washington HIV Prevention Project Survey (2017)
+     - Population: All Washington State HIV- MSM
      - Data Collection Methods: Online survey
      - Availability: [Summary available](https://www.doh.wa.gov/Portals/1/Documents/5620/WashingtonHIVPreventionProjectKeyFindings2017.pdf). More available from WADOH, if needed?
      - Parameters
+          - attitudes towards/awareness of PrEP
           - compare to ARTNET
-5. Seattle Pride Survey
-     - Population: MSM at Pride Parade
-     - Data Collection Methods: 
-     - Availability: Summary available in Washington HIV-AIDS annual epidemiology report, pp. 46-50 [link](https://www.kingcounty.gov/depts/health/communicable-diseases/hiv-std/patients/epidemiology/~/media/depts/health/communicable-diseases/documents/hivstd/2016-hiv-aids-epidemiology-annual-report.ashx)
-     - Parameters?
+5. Washington HIV Prevention Project Survey (2018-)
+     - Population: All Washington State MSM
+     - Data Collection Methods: Online survey
+     - Availability: Collecting data now
+     - Parameters
+          - compare to ARTNET
