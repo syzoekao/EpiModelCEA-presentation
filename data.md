@@ -66,3 +66,22 @@ The data sources to inform parameters are as follows:
           - Reasons for discontinuation
           - Adherence to PrEP
           - Sexual behavior (aggregate only)
+6. American Community Survey (ACS)
+     - Population: Representative sample of US population (down to census track)
+     - Data Collection Method: Survey (run by Census bureau)
+     - Availability: Publicly available - [https://usa.ipums.org/usa/](https://usa.ipums.org/usa/)
+     - Parameters
+          - direct purchase health insurance (`hinspur`)
+          - publicly funded health insurance (`hcovpub`)
+          - Restrict on `sex(1)` and `statefip(53)` for males in Washington
+          - Possible stratifications: `county`, `race`, income (`ftotinc` or `inctot`), poverty status (`poverty`)
+          - Other variables of potential interest: same-sex married couple (`ssmc`), marital-status (`marst`)
+7. WA health benefit exchange reports (can maybe get more detailed data summaries?)
+     - Population: All persons enrolling in health plans through the WA health benefit exchange
+     - Data Collection: analysis of enrollment database
+     - Availability: Report for [2017](https://www.wahbexchange.org/wp-content/uploads/2017/04/HBE_EN_170419_April_Enrollment_Report.pdf); older reports should be available but I can't find them
+     - Parameters
+          - Enrollment by metal level (bronze, silver, gold, etc.)
+          - Also stratified by federal poverty level
+          - Have information on age, sex, county but combined stratification not publicly available
+     
