@@ -1,9 +1,6 @@
 # PrEP care continuum
 
-![CareContinuum](figures/PrEPcont.png)
-
-**WHAMP PrEP care continuum**
-![PrEPattribute](figures/PrEPattribute.png)
+![CareContinuum](figures/PrEPContinuum.png)
 
 * PrEP awareness and uptake could depend on income, insurance, and risk factors. 
 * The existing code doesn't currently take PrEP interest into consideration. 

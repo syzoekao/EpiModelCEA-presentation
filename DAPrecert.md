@@ -9,7 +9,13 @@
 
 <tr><td><b>ADAP</b></td><td>Every 6 months</td><td>NA</td></tr>
 
-<tr><td><b>PDAP</b></td><td>Every year</td><td>HIV- test in the last 90 days</td></tr>
+<tr><td><b>PrEP-DAP</b></td><td>Every year</td><td>HIV- test in the last 90 days</td></tr>
 </table>
 
-<a href="ModuleSum.md#DAPrecert">Back</a>
+**Parameter table (parameter, data source, stratification)**
+
+**Questions**
+* Does each program require being on treatment for recertification? 
+
+
+<a href="CostingModelSum.md">Back</a>
