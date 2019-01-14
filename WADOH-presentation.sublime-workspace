@@ -69,7 +69,7 @@
 			"file": "Continuum.md",
 			"settings":
 			{
-				"buffer_size": 310,
+				"buffer_size": 312,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -96,7 +96,7 @@
 			"file": "DAPoutcome.md",
 			"settings":
 			{
-				"buffer_size": 970,
+				"buffer_size": 973,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -369,7 +369,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -391,14 +391,14 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1547436368.08,
+							"markdonw_live_preview_last_run": 1547476362.68,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -420,14 +420,14 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1547436215.15,
+							"markdonw_live_preview_last_run": 1547476362.62,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -436,27 +436,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 310,
+						"buffer_size": 312,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								310,
-								310
+								273,
+								273
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1547436221.75,
+							"markdonw_live_preview_last_run": 1547476579.49,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -472,20 +472,20 @@
 						"selection":
 						[
 							[
-								1657,
-								1657
+								565,
+								565
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1547436226.86,
+							"markdonw_live_preview_last_run": 1547476401.49,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 73.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -501,13 +501,13 @@
 						"selection":
 						[
 							[
-								723,
-								723
+								605,
+								605
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1547436231.74,
+							"markdonw_live_preview_last_run": 1547476416.4,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -523,20 +523,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 970,
+						"buffer_size": 973,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								969,
-								969
+								782,
+								782
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1547436236.57,
+							"markdonw_live_preview_last_run": 1547476437.01,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -559,13 +559,13 @@
 						"selection":
 						[
 							[
-								449,
-								449
+								410,
+								410
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1547436242.22,
+							"markdonw_live_preview_last_run": 1547476362.68,
 							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
