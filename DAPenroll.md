@@ -20,8 +20,8 @@
   <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Questions</strong></font></font></th>
 </tr>
 
-<tr bgcolor="#b7b6aa">
-<td><font COLOR="#FFFFF"><b>General HIV+</b></font></td>
+<tr>
+<td><b>General HIV+</b></td>
 <td></td>
 <td></td>
 <td></td>
@@ -50,8 +50,8 @@ ADAP: Calculated from eHARs-linked DAP claims data.
 <td></td>
 </tr>
 
-<tr bgcolor="#b7b6aa">
-<td><font COLOR="#FFFFF"><b>ADAP Parameters</b></font></td>
+<tr>
+<td><b>ADAP Parameters</b></td>
 <td></td>
 <td></td>
 <td></td>
@@ -96,8 +96,8 @@ ADAP: Calculated from eHARs-linked DAP claims data.
   <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Questions</strong></font></font></th>
 </tr>
 
-<tr bgcolor="#b7b6aa">
-<td><font COLOR="#FFFFF"><b>General HIV-</b></font></td>
+<tr>
+<td><b>General HIV-</b></td>
 <td></td>
 <td></td>
 <td></td>
@@ -145,8 +145,8 @@ ADAP: Calculated from eHARs-linked DAP claims data.
 <td></td>
 </tr>
 
-<tr bgcolor="#b7b6aa">
-<td><font COLOR="#FFFFF"><b>PrEP DAP Parameters</b></font></td>
+<tr>
+<td><b>PrEP DAP Parameters</b></td>
 <td></td>
 <td></td>
 <td></td>
