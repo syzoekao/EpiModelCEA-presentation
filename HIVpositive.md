@@ -1,0 +1,229 @@
+# HIV-positive
+##<div id="ARTcontinuum">ART Continuum</div>
+
+![ARTcontinuum](figures/ARTContinuum1.png)
+
+**Parameters**
+<table>
+<tr>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Label</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Parameter</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Data Source</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Stratification</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Question</strong></font></th>
+</tr>
+
+<tr>
+    <td><i>tt1</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>tt2</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>tt3</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>tt4</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+</table>
+
+##<div id="ADAPandContinuum">ADAP and care continuum</div>
+
+* Criteria of enrollment
+    - Income: 138%-400% of FPL
+    - Insurance: 
+        + Uninsured: find insurance for them
+        + Insured: exclude medicaid
+    - Prescription: doesn't seem required
+
+
+* Criteria of recertification
+    - Frequency of recertification: every 6 months
+    - Testing behavior: NA
+    - Behavior of engaging in care: NA
+
+<a href="HIVpositive.md#ARTcontinuum2">Next</a>
+
+<div id="ARTcontinuum2"></div>
+
+![ARTcontinuum2](figures/ARTContinuum2.png)
+
+<a href="HIVpositive.md#ARTcontinuum3">Next</a>
+
+
+<div id="ARTcontinuum3"></div>
+
+![ARTcontinuum3](figures/ARTContinuum3.png)
+
+**Parameters**
+<table>
+<tr>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Label</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Parameter</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Data Source</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Stratification</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Question</strong></font></th>
+</tr>
+
+<tr>
+    <td><i>&epsilon;1</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>&epsilon;2</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>&epsilon;3</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>tt2to4</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+</table>
+
+
+##<div id="ARTdynamics">ART and ADAP dynamics</div>
+![ARTdynamics](figures/ARTdynamics.png)
+
+, where $$tt_x$$ refers to the test/treat trajectory to which an indiviudal was assigned. 
+
+**Parameters**
+<table>
+<tr>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Label</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Parameter</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Data Source</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Stratification</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Question</strong></font></th>
+</tr>
+
+<tr><td colspan=5 bgcolor="#E5E4E2"><i><b>ADAP dynamics</i></b></td></tr>
+<tr>
+    <td><i>&Omicron;</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>&Omega;</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr><td colspan=5 bgcolor="#E5E4E2"><i><b>ADAP inactive</i></b></td></tr>
+
+<tr>
+    <td><i>&mu;</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>&tau;</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>&sigma;</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>&nu;</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr><td colspan=5 bgcolor="#E5E4E2"><i><b>ADAP active</i></b></td></tr>
+
+<tr>
+    <td><i>&mu;'</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>&tau;'</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>&sigma;'</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>&nu;'</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+</table>
+
+## <div id="ADAPcost">ADAP cost</div>
+* Client costs
+    - Insurance premium (+)
+    - ART out of pocket costs coverage (+)
+    - Healthcare out of pocket cost coverage (select services) (+)
+* Assessment cost
+
+
