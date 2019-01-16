@@ -2,6 +2,10 @@
 
 ## Progress
 
+* We have developed modules to integrate CEA components in the EpiModelHIV framework. 
+    - We are testing and documenting these modules now.
+* We have identified the data sources for the parameters in the model. 
+
 
 ## Timeline 2019
 
