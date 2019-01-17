@@ -157,87 +157,54 @@
 <tr><td colspan=5 bgcolor="#E5E4E2"><i><b>ADAP dynamics</i></b></td></tr>
 <tr>
     <td><i>&Omicron;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> Weekly probability of enrolling in ADAP </td>
+    <td> Calculated from average time to ADAP enrollment from diagnosis </td>
+    <td> Race, income, region, age</td>
+    <td> None </td>
 </tr>
 
 <tr>
     <td><i>&Omega;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> Weekly probability of disenrolling from ADAP</td>
+    <td> Calculated from average duration of ADAP enrollment</td>
+    <td> Race, region, age</td>
+    <td> None </td>
 </tr>
 
 <tr><td colspan=5 bgcolor="#E5E4E2"><i><b>ADAP inactive</i></b></td></tr>
 
 <tr>
-    <td><i>&mu;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>&mu;, &mu;'</i></td>
+    <td> Weekly probability of ART initiation after diagnosis (tx naive)</td>
+    <td> Previous publications, eHARS, WADOH claims data (?) </td>
+    <td> Treatment trajectory, ADAP status, race, region </td>
+    <td> None </td>
 </tr>
 
 <tr>
-    <td><i>&tau;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>&tau;, &tau;</i></td>
+    <td> Weekly probability of ART discontinuation </td>
+    <td> Previous publications, eHARS, WADOH claims data (?) </td>
+    <td> Treatment trajectory, ADAP status, race, region </td>
+    <td> None </td>
 </tr>
 
 <tr>
-    <td><i>&sigma;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>&nu;, &nu;'</i></td>
+    <td> Weekly probability of reinitiating ART after discontinuation </td>
+    <td> Previous publications, eHARS, WADOH claims data (?) </td>
+    <td> Treatment trajectory, ADAP status, race, region </td>
+    <td> None </td>
 </tr>
 
 <tr>
-    <td><i>&nu;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>&sigma;, &sigma;'</i></td>
+    <td> Weekly probability of discontinuing ART after reinitiation </td>
+    <td> Previous publications, eHARS, WADOH claims data (?) </td>
+    <td> Treatment trajectory, ADAP status, race, region </td>
+    <td> None </td>
 </tr>
 
-<tr><td colspan=5 bgcolor="#E5E4E2"><i><b>ADAP active</i></b></td></tr>
-
-<tr>
-    <td><i>&mu;'</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>&tau;'</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>&sigma;'</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>&nu;'</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
 </table>
 
 ## <div id="ADAPcost">ADAP cost</div>
