@@ -1,4 +1,19 @@
 # HIV-negative
+
+##<div id="pdap">Washington State PrEP drug assistance program (PrEP-DAP)</div>
+- Goal is to support access to PrEP for at-risk HIV-negative individuals
+- Fully state funded; Washington state was the first to implement
+- Gilead (pharmaceutical company) already provides patient drug co-pay assistance
+    + Up to $7,200 per year (effective Sept. 1, 2018) for privately-insured
+- PrEP-DAP Benefits:
+    + Provides assistance in enrolling in Medicaid for those who are eligible
+    + Provides assistance in enrolling in Gilead patient assistance programs
+    + Pays client-cost of lab tests and medical visits needed for PrEP use (quarterly HIV/STI testing, kidney function, etc.)
+    + Pays PrEP co-pays once Gilead benefit is exhausted
+- [Eligibility](https://www.doh.wa.gov/Portals/1/Documents/Pubs/150-082-PayingForPrEPDecisionTree.pdf) depends on the income and insurance of the individual
+    + Not enrolled in Medicaid (which covers PrEP)
+    + No income cut-off at this time
+
 ##<div id="PrEPcontinuum">PrEP continuum</div>
 
 ![PrEPcontinuum](figures/PrEPContinuum1.png)
@@ -68,7 +83,7 @@
     - Insurance: cannot receive medicaid
     - HIV- test result requred within 14 days
     - Prescription: providers are required to certify the prescription
-    - Risk factors: 
+    - Risk factors:
         + Test positive for STIs in the last 12 months
         + Unprotected sex outside of mutually monogamous relationship
         + HIV+ partners
@@ -260,10 +275,9 @@
 
 
 ## <div id="PDAPcost">PrEP-DAP cost</div>
-* Client costs 
+* Client costs
     - Gilead benefits (-)
     - Medical and lab visits costs (+)
     - STI treatment costs (+)
     - Other relevant healthcare costs (selective services) (+)
 * Assessment cost
-

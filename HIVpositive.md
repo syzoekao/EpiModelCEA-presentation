@@ -1,5 +1,26 @@
 # HIV-positive
+
+##<div id="adap">AIDS drug assistance program (ADAP)</div>
+- Originally conceived to pay for HIV treatment (ART) for people living with HIV who couldn't afford it
+- Federally funded, but state-administered
+- State determines eligibility, enrollment process, and benefits
+- Following the passage of the affordable care act in 2010, more people had access to insurance that covered ART (Medicaid expansion; elimination of pre-existing condition clauses)
+- Program goal remains the same (support access to ART), but benefits have changed
+
+## Washington State ADAP
+- Benefits:
+    + Provides assistance in acquiring insurance
+    + Pays insurance premiums
+    + Pays client-cost of HIV-related medications and healthcare services (deductibles, cost-sharing, co-pays)
+    + Pays full cost of ART and HIV-related prescription medications for uninsured
+- [Eligibility](http://adap.directory/washington#field_eligibility) depends on the income and insurance status of the individual
+    + Income <400% Federal Povery Level
+    + Currently uninsired, self-insured, employer-sponsored insurance
+    + Not enrolled in Medicaid
+
+
 ##<div id="ARTcontinuum">ART Continuum</div>
+
 
 ![ARTcontinuum](figures/ARTContinuum1.png)
 
@@ -50,7 +71,7 @@
 
 * Criteria of enrollment
     - Income: 138%-400% of FPL
-    - Insurance: 
+    - Insurance:
         + Uninsured: find insurance for them
         + Insured: exclude medicaid
     - Prescription: doesn't seem required
@@ -121,7 +142,7 @@
 ##<div id="ARTdynamics">ART and ADAP dynamics</div>
 ![ARTdynamics](figures/ARTdynamics.png)
 
-, where $$tt_x$$ refers to the test/treat trajectory to which an indiviudal was assigned. 
+, where $$tt_x$$ refers to the test/treat trajectory to which an indiviudal was assigned.
 
 **Parameters**
 <table>
@@ -225,5 +246,3 @@
     - ART out of pocket costs coverage (+)
     - Healthcare out of pocket cost coverage (select services) (+)
 * Assessment cost
-
-
