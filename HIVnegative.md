@@ -1,7 +1,33 @@
 # HIV-negative
-##<div id="PrEPcontinuum">PrEP continuum</div>
 
-![PrEPcontinuum](figures/PrEPContinuum1.png)
+##<div id="pdap">Washington State PrEP-DAP</div>
+- Goal is to support access to PrEP for at-risk HIV-negative individuals
+- Fully state funded; Washington state was the first to implement
+- Gilead (pharmaceutical company) already provides patient drug co-pay assistance
+    + Up to $7,200 per year (effective Sept. 1, 2018) for privately-insured
+- PrEP-DAP Benefits:
+    + Provides assistance in enrolling in Medicaid for those who are eligible
+    + Provides assistance in enrolling in Gilead patient assistance programs
+    + Pays client-cost of lab tests and medical visits needed for PrEP use (quarterly HIV/STI testing, kidney function, etc.)
+    + Pays PrEP co-pays once Gilead benefit is exhausted
+- Criteria of enrollment: [Eligibility](https://www.doh.wa.gov/Portals/1/Documents/Pubs/150-082-PayingForPrEPDecisionTree.pdf)
+    + Income: no restriction
+    + Insurance: cannot receive medicaid
+    + HIV- test result requred within 14 days
+    + Prescription: providers are required to certify the prescription
+    + Risk factors: 
+        * Test positive for STIs (gonorrhea, chlamydia, and syphilis) in the last 12 months
+        * Unprotected sex outside of mutually monogamous relationship
+        * HIV+ partners 
+- Criteria of recertification
+    + Frequency of recertification: every year
+    + Test: test HIV- in the past 90 months
+    + Proof of taking PrEP: NA
+
+
+##<div id="PDAPandContinuum">PrEP-DAP and care continuum</div>
+
+![PrEPcontinuum3](figures/PrEPContinuum3.png)
 
 * Recommended indicates the PrEP recommendation on the WA guideline. 
     - Diagnosed with rectal gonorrhea or syphilis in the past 12 months.
@@ -10,94 +36,6 @@
     - Have unprotected sex outside of mutually monogamous partnerships with a man who is HIV-. 
     - Diagnosed with gonorrhea or chlamydia in the past 12 months. 
     - Ongoing sexual partnerships with HIV+ who are virally suppressed. 
-
-**Parameters**
-<table>
-<tr>
-    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Label</strong></font></th>
-    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Parameter</strong></font></th>
-    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Data Source</strong></font></th>
-    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Stratification</strong></font></th>
-    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Question</strong></font></th>
-</tr>
-
-<tr>
-    <td><i>&alpha;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr><td colspan=5 bgcolor="#E5E4E2"><i><b>PrEP indication</i></b></td></tr>
-<tr>
-    <td><i>&phi;1</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>&phi;2</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-<tr><td colspan=5 bgcolor="#E5E4E2"><i><b>PrEP interest</i></b></td></tr>
-<tr>
-    <td><i>&iota;1</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-<tr>
-    <td><i>&iota;2</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-<tr>
-    <td><i>&iota;3</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-</table>
-
-##<div id="PDAPandContinuum">PrEP-DAP and care continuum</div>
-
-**Criteria of enrollment**
-- Income: no restriction
-- Insurance: cannot receive medicaid
-- HIV- test result requred within 14 days
-- Prescription: providers are required to certify the prescription
-- Risk factors: 
-    + Test positive for STIs (gonorrhea, chlamydia, and syphilis) in the last 12 months
-    + Unprotected sex outside of mutually monogamous relationship
-    + HIV+ partners 
-
-**Criteria of recertification**
-- Frequency of recertification: every year
-- Test: test HIV- in the past 90 months
-- Proof of taking PrEP: NA
-
-<a href="HIVnegative.md#PrEPcontinuum2">Next</a>
-
-<div id="PrEPcontinuum2"></div>
-
-![PrEPcontinuum2](figures/PrEPContinuum2.png)
-
-<a href="HIVnegative.md#PrEPcontinuum3">Next</a>
-
-<div id="PrEPcontinuum3"></div>
-
-![PrEPcontinuum3](figures/PrEPContinuum3.png)
-
 * Only the individuals who are aware of and interested in PrEP can be enrolled in PrEP-DAP
 * PrEP-DAP modifies the probabilities in the PrEP dynamics. 
 
@@ -141,7 +79,9 @@
 ##<div id="PrEPdynamics">PrEP and PrEP-DAP dynamics</div>
 ![PrEPdynamics](figures/PrEPdynamics.png)
 
-* PrEP indication dynamics and PrEP-DAP dynamics should be considered at the same time. 
+* In the PrEP dynamics, we considered PrEP indication dynamics and PrEP-DAP dynamics. 
+* Changes in PrEP indication dynamics are resulted in changes in partnerships and STI dynamics. 
+* In addition to the changes in partnerships and STI dynamics, PrEP-DAP dynamics might also depend on and the behaviors of meeting the requirements of the program. 
 
 **Parameters**
 <table>
@@ -277,7 +217,7 @@
 * Are there records of diagnosed date prior to enrollment?
 
 ## <div id="PDAPcost">PrEP-DAP cost</div>
-* Client costs 
+* Client costs
     - Gilead benefits (-)
     - Medical and lab visits costs (+)
     - STI treatment costs (+)
