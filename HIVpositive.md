@@ -30,19 +30,19 @@ Upon entering the model, each individual is assigned to one of the care trajecto
 
 The four trajectories are:
 
-1. Never test
-2. Test and never treat
-3. Treat with partial suppression
-4. Treat with full suppression
+- **T1**: Never test
+- **T2**: Test and never treat
+- **T3**: Treat with partial suppression
+- **T4**: Treat with full suppression
 
 Within each of these trajectories, there can be variation in care over time. For example, someone in T4 may stop taking ART.
 
 ADAP affects the trajectories in the following ways:
 
-* Without ADAP, only individuals in trajectory 3 and trajectory 4 can engage in care and enter into the ART treatment dynamics.
-* With ADAP, individuals who are on trajectory 2 may be able to obtain ART treatment and engage in care.
-* Individual attributes influence the probability that the person diagnosed with HIV enrolls in ADAP.
-* For individuals on trajectory 3 and 4, ADAP modifies the probabilities in the ART dynamics. This can lead to a longer duration of ART treatment and fewer gaps in ART treatment.
+* Without ADAP, only individuals in T3 and T4 can engage in care and enter into the ART treatment dynamics.
+* For individuals on T3/T4, ADAP modifies the ART dynamics. This can lead to a longer duration of ART treatment and fewer gaps in ART treatment.
+* With ADAP, individuals who are on T2 may be able to obtain ART treatment and engage in care.
+* In addition, individual attributes influence the probability that a person diagnosed with HIV enrolls in ADAP.
 
 In addition to being assigned a trajectory upon model entry, individuals are also assigned "ADAP" or "no ADAP", Only these people may enter the ADAP program.
 
@@ -52,6 +52,9 @@ The trajectory and ADAP/no ADAP assignment is illustrated below:
 ![ARTcontinuum3](figures/ARTContinuum3.png)
 
 **Parameters**
+
+note: VS = viral suppression
+
 <table>
 <tr>
     <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Label</strong></font></th>
@@ -61,36 +64,72 @@ The trajectory and ADAP/no ADAP assignment is illustrated below:
     <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Question</strong></font></th>
 </tr>
 
+<tr><td colspan=5 bgcolor="#E5E4E2"><i><b>Treatment trajectories</i></b></td></tr>
+
+<tr>
+    <td><i>tt4</i></td>
+    <td> Percentage of PLWH who consistently achieve full VS </td>
+    <td> MMP, eHARS </td>
+    <td> Race, income, insurance, region</td>
+    <td> ? </td>
+</tr>
+
+<tr>
+    <td><i>tt3</i></td>
+    <td> Percentage of PLWH who engage in care but do not consistently achieve full VS</td>
+    <td> MMP, eHARS </td>
+    <td> Race, income, insurance, region </td>
+    <td> ? </td>
+</tr>
+
+<tr>
+    <td><i>tt1</i></td>
+    <td> Percentage of PLWH who never test </td>
+    <td> Washington HIV Epi Reports </td>
+    <td> Race, income, insurance, region </td>
+    <td> How can we get the stratified data? </td>
+</tr>
+
+<tr>
+    <td><i>tt2</i></td>
+    <td> Percentage of PLWH that get a dx but never engage in care </td>
+    <td> Washington HIV Epi Reports </td>
+    <td> Race, income, insurance, region </td>
+    <td> ? </td>
+</tr>
+
+<tr><td colspan=5 bgcolor="#E5E4E2"><i><b>ADAP parameters</i></b></td></tr>
+
 <tr>
     <td><i>&epsilon;1</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> Percentage of people on T4 who are in ADAP</td>
+    <td> Claims data linked with eHARS </td>
+    <td> Race, income, insurance, region </td>
+    <td> ? </td>
 </tr>
 
 <tr>
     <td><i>&epsilon;2</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> Percentage of people on T3 who are in ADAP </td>
+    <td> Claims data linked with eHARS </td>
+    <td> Race, income, insurance, region </td>
+    <td> ? </td>
 </tr>
 
 <tr>
     <td><i>&epsilon;3</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> Percentage of people on T2 who would enter care if on ADAP (?) </td>
+    <td> ? </td>
+    <td> Race, income, insurance, region </td>
+    <td> ? </td>
 </tr>
 
 <tr>
     <td><i>tt2to4</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> Percentage of people on ADAP+T2 who achieve full VS </td>
+    <td> ? </td>
+    <td> Race, income, insurance, region </td>
+    <td> ? </td>
 </tr>
 </table>
 
