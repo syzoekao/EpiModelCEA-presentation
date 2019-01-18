@@ -7,6 +7,7 @@
 * [People Living With HIV/AIDS](HIVpositive.md)
     - [AIDS drug assistance program (ADAP)](HIVpositive.md#adap)
     - [WA ADAP](HIVpositive.md#WAADAP)
+    - [ADAP and care continuum](HIVpositive.md#ADAPandContinuum)
     - [ART & ADAP dynamics](HIVpositive.md#ARTdynamics)
     - [Cost](HIVpositive.md#ADAPcost)
 * [People who do not have HIV](HIVnegative.md)

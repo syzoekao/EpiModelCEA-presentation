@@ -2,7 +2,7 @@
     "gitbook" : "3.2.3", 
     "root": ".", 
     "title": "CEA for EpiModelHIV", 
-    "description": "Presentation of coding changes", 
+    "description": "Presentation for DOH", 
     "plugins": ["mathjax"], 
     "links": {
         "sidebar": {
