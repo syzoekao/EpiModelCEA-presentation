@@ -1,7 +1,7 @@
 # Objective
 * Washington state has programs that help people get medications to treat HIV and to prevent HIV acquisition
-  - *treat HIV*: AIDS Drug Assistance Program (ADAP)
-  - *prevent HIV*: PrEP Drug Assistance Program (PDAP)
+  - AIDS Drug Assistance Program (ADAP)
+  - PrEP Drug Assistance Program (PDAP)
 * The objective of the costing component of WHAMP is to add functionality to EpiModelHIV that allows us to:
   - project ADAP and PDAP costs over time
   - evaluate scenarios that would lead to expanding or restricting ADAP and PDAP programs
