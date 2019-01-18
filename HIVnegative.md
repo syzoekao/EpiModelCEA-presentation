@@ -10,35 +10,35 @@
     + Provides assistance in enrolling in Gilead patient assistance programs
     + Pays client-cost of lab tests and medical visits needed for PrEP use (quarterly HIV/STI testing, kidney function, etc.)
     + Pays PrEP co-pays once Gilead benefit is exhausted
-- Criteria of enrollment: [Eligibility](https://www.doh.wa.gov/Portals/1/Documents/Pubs/150-082-PayingForPrEPDecisionTree.pdf)
+- Enrollment criteria: [Eligibility](https://www.doh.wa.gov/Portals/1/Documents/Pubs/150-082-PayingForPrEPDecisionTree.pdf)
     + Income: no restriction
     + Insurance: cannot receive medicaid
-    + HIV- test result requred within 14 days
+    + HIV- test result within 14 days
     + Prescription: providers are required to certify the prescription
     + Risk factors:
         * Test positive for STIs (gonorrhea, chlamydia, and syphilis) in the last 12 months
         * Unprotected sex outside of mutually monogamous relationship
         * HIV+ partners
-- Criteria of recertification
+- Recertification criteria:
     + Frequency of recertification: every year
-    + Test: test HIV- in the past 90 months
+    + Test: test HIV- in the past 90 days
     + Proof of taking PrEP: NA
 
 
 ##<div id="PDAPandContinuum">PrEP-DAP and care continuum</div>
 
-![PrEPcontinuum3](figures/PrEPContinuum3.png)
-
-* Recommended indicates the PrEP recommendation on the WA guideline.
+* **Recommended**: PrEP is recommended for people who meet the following criteria:
     - Diagnosed with rectal gonorrhea or syphilis in the past 12 months.
     - Ongoing sexual relationships with HIV+ partners who are not virally suppressed or not on ART
-* Discussed indicates that providers should discuss use of PrEP with individuals who meet:
+* **Discussed**: Providers should discuss use of PrEP with a person who meets the following criteria:
     - Have unprotected sex outside of mutually monogamous partnerships with a man who is HIV-.
     - Diagnosed with gonorrhea or chlamydia in the past 12 months.
     - Ongoing sexual partnerships with HIV+ who are virally suppressed.
-* Only the individuals who are aware of and interested in PrEP can be enrolled in PrEP-DAP
-* PrEP-DAP modifies the probabilities in the PrEP dynamics.
+* **No PrEP indication**: does not meet criteria for "Recommend" or "Discuss"
+* Only individuals who are aware of and interested in PrEP can be enrolled in PrEP-DAP
+* PrEP-DAP modifies the PrEP dynamics.
 
+![PrEPcontinuum3](figures/PrEPContinuum3.png)
 
 **Parameters**
 <table>
@@ -49,6 +49,58 @@
     <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Stratification</strong></font></th>
     <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Question</strong></font></th>
 </tr>
+
+<tr><td colspan=5 bgcolor="#E5E4E2"><i><b>PrEP Awareness, Indication, Interest</i></b></td></tr>
+
+<tr>
+    <td><i>a</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>&phi;1</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>&phi;2</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>t1</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>t2</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr>
+    <td><i>t3</i></td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+    <td> XX </td>
+</tr>
+
+<tr><td colspan=5 bgcolor="#E5E4E2"><i><b>PrEP DAP</i></b></td></tr>
 
 <tr>
     <td><i>e1</i></td>
@@ -77,6 +129,9 @@
 
 
 ##<div id="PrEPdynamics">PrEP and PrEP-DAP dynamics</div>
+
+<font color="red">Note: can we change the parameters to the <i>u</i>, <i>u'</i> system to save space?</font>
+
 ![PrEPdynamics](figures/PrEPdynamics.png)
 
 * In the PrEP dynamics, we considered PrEP indication dynamics and PrEP-DAP dynamics.
@@ -218,11 +273,13 @@
 
 ## <div id="PDAPcost">PrEP-DAP cost</div>
 * Client costs
-    - Gilead benefits (-)
-    - Medical and lab visits costs (+)
-    - STI treatment costs (+)
-    - Other relevant healthcare costs (selective services) (+)
+    - Copays, coinsurance, and/or deductible for:
+      - PrEP medication, after Gilead benefits are exhausted
+      - Medical and lab visits
+      - STI treatment
+      - Other relevant healthcare (selective services)
 * Assessment cost
+* Overhead
 
 **Questions**
 
