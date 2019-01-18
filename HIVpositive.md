@@ -1,43 +1,55 @@
-# HIV-positive
+# People Living With HIV/AIDS
 
 ##<div id="adap">AIDS drug assistance program (ADAP)</div>
 - Originally conceived to pay for HIV treatment (ART) for people living with HIV who couldn't afford it
 - Federally funded, but state-administered
 - State determines eligibility, enrollment process, and benefits
-- Following the passage of the affordable care act in 2010, more people had access to insurance that covered ART (Medicaid expansion; elimination of pre-existing condition clauses)
+- Following the passage of the Affordable Care Act in 2010, more people had access to insurance that covered ART (Medicaid expansion; elimination of pre-existing condition clauses)
 - Program goal remains the same (support access to ART), but benefits have changed
 
 ##<div id="WAADAP">Washington State ADAP</div>
 - Benefits:
     + Provides assistance in acquiring insurance
     + Pays insurance premiums
-    + Pays client-cost of HIV-related medications and healthcare services (deductibles, cost-sharing, co-pays)
-    + Pays full cost of ART and HIV-related prescription medications for uninsured
-- Criteria of enrollment: [Eligibility](http://adap.directory/washington#field_eligibility) 
-    + Income: 138%-400% of FPL
-    + Insurance: 
-        * Uninsured: find insurance for them
-        * Insured: exclude medicaid
-    + Prescription: doesn't seem required
-- Criteria of recertification
-    + Frequency of recertification: every 6 months
-    + Testing behavior: NA
-    + Behavior of engaging in care: NA
-
+    + Pays costs to the client for HIV-related medications and healthcare services (deductibles, cost-sharing, co-pays)
+    + Pays full cost of ART and HIV-related prescription medications for uninsured, but insurance is often cheaper.
+- Enrollment criteria: [Eligibility](http://adap.directory/washington#field_eligibility)
+    + Income: must be below 400% of the federal poverty level (FPL), and must not be eligible for Medicaid (i.e., above 138% FPL)
+    + Insurance status prior to entering ADAP:
+        * Cannot have Medicaid or be eligible for Medicaid
+        * Can be uninsured: ADAP will purchase insurance
+        * If insured through other programs than Medicaid, ADAP pays out-of-pocket costs related to ART and other care
+- Recertification
+    + Clients must recertify every 6 months
+    + The reapplication does not depend on treatment adherence or behavior
 
 ##<div id="ADAPandContinuum">ADAP and care continuum</div>
 
+
+Upon entering the model, each individual is assigned to one of the care trajectories, based on their individual attributes (e.g. income, insurance, etc.)
+
+The four trajectories are:
+
+1. Never test
+2. Test and never treat
+3. Treat with partial suppression
+4. Treat with full suppression
+
+Within each of these trajectories, there can be variation in care over time. For example, someone in T4 may stop taking ART.
+
+ADAP affects the trajectories in the following ways:
+
+* Without ADAP, only individuals in trajectory 3 and trajectory 4 can engage in care and enter into the ART treatment dynamics.
+* With ADAP, individuals who are on trajectory 2 may be able to obtain ART treatment and engage in care.
+* Individual attributes influence the probability that the person diagnosed with HIV enrolls in ADAP.
+* For individuals on trajectory 3 and 4, ADAP modifies the probabilities in the ART dynamics. This can lead to a longer duration of ART treatment and fewer gaps in ART treatment.
+
+In addition to being assigned a trajectory upon model entry, individuals are also assigned "ADAP" or "no ADAP", Only these people may enter the ADAP program.
+
+The trajectory and ADAP/no ADAP assignment is illustrated below:
+
 <div id="ARTcontinuum3"></div>
-
 ![ARTcontinuum3](figures/ARTContinuum3.png)
-
-
-* Each individual was assigned to one of the test/treat trajectory. 
-* Test/treat trajectories are associated with individual attributes. 
-* Without ADAP, only individuals in traject 3 (treated & partial suppression) and trajectory 4 (treated & full suppression) might engage in care and enter into the ART treatment dynamics. 
-* Individual attributes might influence the probability that the diagnosed HIV+ enroll in ADAP. 
-* ADAP could allow individuals who are on trajectory 2 (tested never treated) to get ART treatment and engage in care. 
-* For individuals on trajectory 3 and 4, ADAP modifies the probabilities in the ART dynamics. 
 
 **Parameters**
 <table>
@@ -90,7 +102,7 @@
 
 
 * Individuals could change ADAP status because of changes in income and insurance, or because of failing recertification.
-* ADAP status migth increase ART initiation and reinitiation and decrease ART stoppage. 
+* ADAP status migth increase ART initiation and reinitiation and decrease ART stoppage.
 
 **Parameters**
 <table>
@@ -105,93 +117,60 @@
 <tr><td colspan=5 bgcolor="#E5E4E2"><i><b>ADAP dynamics</i></b></td></tr>
 <tr>
     <td><i>&Omicron;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> Weekly probability of enrolling in ADAP </td>
+    <td> Calculated from average time to ADAP enrollment from diagnosis </td>
+    <td> Race, income, region, age</td>
+    <td> None </td>
 </tr>
 
 <tr>
     <td><i>&Omega;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> Weekly probability of disenrolling from ADAP</td>
+    <td> Calculated from average duration of ADAP enrollment</td>
+    <td> Race, region, age</td>
+    <td> None </td>
 </tr>
 
 <tr><td colspan=5 bgcolor="#E5E4E2"><i><b>ADAP inactive</i></b></td></tr>
 
 <tr>
-    <td><i>&mu;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>&mu;, &mu;'</i></td>
+    <td> Weekly probability of ART initiation after diagnosis (tx naive)</td>
+    <td> Previous publications, eHARS, WADOH claims data (?) </td>
+    <td> Treatment trajectory, ADAP status, race, region </td>
+    <td> None </td>
 </tr>
 
 <tr>
-    <td><i>&tau;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>&tau;, &tau;</i></td>
+    <td> Weekly probability of ART discontinuation </td>
+    <td> Previous publications, eHARS, WADOH claims data (?) </td>
+    <td> Treatment trajectory, ADAP status, race, region </td>
+    <td> None </td>
 </tr>
 
 <tr>
-    <td><i>&sigma;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>&nu;, &nu;'</i></td>
+    <td> Weekly probability of reinitiating ART after discontinuation </td>
+    <td> Previous publications, eHARS, WADOH claims data (?) </td>
+    <td> Treatment trajectory, ADAP status, race, region </td>
+    <td> None </td>
 </tr>
 
 <tr>
-    <td><i>&nu;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>&sigma;, &sigma;'</i></td>
+    <td> Weekly probability of discontinuing ART after reinitiation </td>
+    <td> Previous publications, eHARS, WADOH claims data (?) </td>
+    <td> Treatment trajectory, ADAP status, race, region </td>
+    <td> None </td>
 </tr>
 
-<tr><td colspan=5 bgcolor="#E5E4E2"><i><b>ADAP active</i></b></td></tr>
-
-<tr>
-    <td><i>&mu;'</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>&tau;'</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>&sigma;'</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>&nu;'</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
 </table>
 
 **Questions**
 
 * Does everyone immediately initiate ART after enrollment?
-* Is engaging in care a requirement for recertification? 
+* Is engaging in care a requirement for recertification?
 * Are there records of diagnosed date prior to enrollment?
 
 ## <div id="ADAPcost">ADAP cost</div>
@@ -205,4 +184,3 @@
 **Questions**
 
 * On average, what is the ratio of enrollments to applications for ADAP in a year?
-

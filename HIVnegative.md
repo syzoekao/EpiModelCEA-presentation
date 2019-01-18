@@ -1,4 +1,4 @@
-# HIV-negative
+# People Who Do Not Have HIV
 
 ##<div id="pdap">Washington State PrEP-DAP</div>
 - Goal is to support access to PrEP for at-risk HIV-negative individuals
@@ -15,10 +15,10 @@
     + Insurance: cannot receive medicaid
     + HIV- test result requred within 14 days
     + Prescription: providers are required to certify the prescription
-    + Risk factors: 
+    + Risk factors:
         * Test positive for STIs (gonorrhea, chlamydia, and syphilis) in the last 12 months
         * Unprotected sex outside of mutually monogamous relationship
-        * HIV+ partners 
+        * HIV+ partners
 - Criteria of recertification
     + Frequency of recertification: every year
     + Test: test HIV- in the past 90 months
@@ -29,15 +29,15 @@
 
 ![PrEPcontinuum3](figures/PrEPContinuum3.png)
 
-* Recommended indicates the PrEP recommendation on the WA guideline. 
+* Recommended indicates the PrEP recommendation on the WA guideline.
     - Diagnosed with rectal gonorrhea or syphilis in the past 12 months.
     - Ongoing sexual relationships with HIV+ partners who are not virally suppressed or not on ART
-* Discussed indicates that providers should discuss use of PrEP with individuals who meet: 
-    - Have unprotected sex outside of mutually monogamous partnerships with a man who is HIV-. 
-    - Diagnosed with gonorrhea or chlamydia in the past 12 months. 
-    - Ongoing sexual partnerships with HIV+ who are virally suppressed. 
+* Discussed indicates that providers should discuss use of PrEP with individuals who meet:
+    - Have unprotected sex outside of mutually monogamous partnerships with a man who is HIV-.
+    - Diagnosed with gonorrhea or chlamydia in the past 12 months.
+    - Ongoing sexual partnerships with HIV+ who are virally suppressed.
 * Only the individuals who are aware of and interested in PrEP can be enrolled in PrEP-DAP
-* PrEP-DAP modifies the probabilities in the PrEP dynamics. 
+* PrEP-DAP modifies the probabilities in the PrEP dynamics.
 
 
 **Parameters**
@@ -79,9 +79,9 @@
 ##<div id="PrEPdynamics">PrEP and PrEP-DAP dynamics</div>
 ![PrEPdynamics](figures/PrEPdynamics.png)
 
-* In the PrEP dynamics, we considered PrEP indication dynamics and PrEP-DAP dynamics. 
-* Changes in PrEP indication dynamics are resulted in changes in partnerships and STI dynamics. 
-* In addition to the changes in partnerships and STI dynamics, PrEP-DAP dynamics might also depend on and the behaviors of meeting the requirements of the program. 
+* In the PrEP dynamics, we considered PrEP indication dynamics and PrEP-DAP dynamics.
+* Changes in PrEP indication dynamics are resulted in changes in partnerships and STI dynamics.
+* In addition to the changes in partnerships and STI dynamics, PrEP-DAP dynamics might also depend on and the behaviors of meeting the requirements of the program.
 
 **Parameters**
 <table>
@@ -227,4 +227,3 @@
 **Questions**
 
 * On average, what is the ratio of enrollments to applications for PrEP-DAP in a year?
-
