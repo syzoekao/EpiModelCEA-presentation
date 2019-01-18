@@ -12,10 +12,10 @@
     + Pays PrEP co-pays once Gilead benefit is exhausted
 - Enrollment criteria: [Eligibility](https://www.doh.wa.gov/Portals/1/Documents/Pubs/150-082-PayingForPrEPDecisionTree.pdf)
     + Income: no restriction
-    + Insurance: cannot receive medicaid
-    + HIV- test result within 14 days
+    + Insurance: cannot receive Medicaid or be eligible for Medicaid
+    + Must obtain negative HIV test result within 14 days
     + Prescription: providers are required to certify the prescription
-    + Risk factors:
+    + PrEP indication is based on risk factors:
         * Test positive for STIs (gonorrhea, chlamydia, and syphilis) in the last 12 months
         * Unprotected sex outside of mutually monogamous relationship
         * HIV+ partners
@@ -41,6 +41,11 @@
 ![PrEPcontinuum3](figures/PrEPContinuum3.png)
 
 **Parameters**
+
+Note: in the WHPP summary, they split people up first by indication and then by awareness + interest.
+That may make more conceptual sense. Also, since R/D/N is evaluated at each time step, we
+might want to put that first.
+
 <table>
 <tr>
     <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Label</strong></font></th>
@@ -54,83 +59,51 @@
 
 <tr>
     <td><i>a</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> Percentage of HIV- people who are aware of PrEP </td>
+    <td> WHPP </td>
+    <td> Race, income, insurance, region </td>
+    <td> ? </td>
 </tr>
 
 <tr>
     <td><i>&phi;1</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> Percentage of those aware for whom PrEP is recommended </td>
+    <td> WHPP </td>
+    <td> Race, income, insurance, region </td>
+    <td> ? </td>
 </tr>
 
 <tr>
     <td><i>&phi;2</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> Percentage of those aware for whom PrEP should be discussed </td>
+    <td> WHPP </td>
+    <td> Race, income, insurance, region </td>
+    <td> ? </td>
 </tr>
 
 <tr>
-    <td><i>t1</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>t2</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>t3</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>t1, t2, t3</i></td>
+    <td> Percentage of people with each indication who are interested in taking PrEP </td>
+    <td> WHPP </td>
+    <td> Race, income, insurance, region </td>
+    <td> ? </td>
 </tr>
 
 <tr><td colspan=5 bgcolor="#E5E4E2"><i><b>PrEP DAP</i></b></td></tr>
 
 <tr>
-    <td><i>e1</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>e1, e2, e3</i></td>
+    <td> Percentage of interested people with each indication who are enrolled in PrEP DAP </td>
+    <td> WHPP </td>
+    <td> Race, income, insurance, region </td>
+    <td> ? </td>
 </tr>
 
-<tr>
-    <td><i>e2</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>e3</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
 </table>
 
 
-##<div id="PrEPdynamics">PrEP and PrEP-DAP dynamics</div>
 
-<font color="red">Note: can we change the parameters to the <i>u</i>, <i>u'</i> system to save space?</font>
+##<div id="PrEPdynamics">PrEP and PrEP-DAP dynamics</div>
 
 ![PrEPdynamics](figures/PrEPdynamics.png)
 
@@ -151,118 +124,54 @@
 <tr><td colspan=5 bgcolor="#E5E4E2"><i><b>PrEP indication dynamics</i></b></td></tr>
 <tr>
     <td><i>&kappa;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> based on risk behavior, whether PrEP is R/D/N </td>
+    <td> NA; determined for each person in model </td>
+    <td> depends on risk behavior for each group </td>
+    <td> ? </td>
 </tr>
 
 <tr>
     <td><i>&pi;</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td> opposite of &kappa; </td>
+    <td> "" </td>
+    <td> "" </td>
+    <td> "" </td>
 </tr>
 
 <tr><td colspan=5 bgcolor="#E5E4E2"><i><b>PrEP-DAP dynamics</i></b></td></tr>
 
 <tr>
-    <td><i>&rho;1</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>&rho;1, &rho;2</i></td>
+    <td> Rate of entering PDAP based on indication and PDAP=TRUE</td>
+    <td> ? </td>
+    <td> ? </td>
+    <td> BIG QUESTION HERE </td>
 </tr>
 
 <tr>
-    <td><i>&rho;2</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>&omega;1</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>&omega;2</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>&omega;1, &omega;2</i></td>
+    <td> Rate of leaving PDAP </td>
+    <td> Claims data; calculated from duration of enrollment</td>
+    <td> Race, income, insurance, PrEP indication</td>
+    <td> ? </td>
 </tr>
 
 <tr><td colspan=5 bgcolor="#E5E4E2"><i><b>PrEP dynamics</i></b></td></tr>
 
 <tr>
-    <td><i>u1</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>u1, u2, u3, u4</i></td>
+    <td> Weekly probability of initiating PrEP</td>
+    <td> WHPP, claims data (?) </td>
+    <td> PDAP status, PrEP indication, race, income, insurance</td>
+    <td> ? </td>
 </tr>
 
 <tr>
-    <td><i>u2</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>u3</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>u4</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>s1</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>s2</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>s3</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-</tr>
-
-<tr>
-    <td><i>s4</i></td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> XX </td>
+    <td><i>s1, s2, s3, s4</i></td>
+    <td> Weekly probability of discontinuing PrEP </td>
+    <td> WHPP, claims data (?) </td>
+    <td> PDAP status, PrEP indication, race, income, insurance </td>
+    <td> ? </td>
 </tr>
 </table>
 
