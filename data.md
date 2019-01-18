@@ -2,6 +2,8 @@
 
 The data sources to inform parameters are as follows:
 
+(note: we will clean this page up later when we figure out what data we are actually 'citing' in the presentation)
+
 1. Washington State Department of Health data for ADAP and PrEP-DAP
      - Population: All ADAP and PrEP-DAP clients
      - Data Collection Methods: Claims and administrative database, linked to some surveillance data (for viral load)
@@ -84,4 +86,3 @@ The data sources to inform parameters are as follows:
           - Enrollment by metal level (bronze, silver, gold, etc.)
           - Also stratified by federal poverty level
           - Have information on age, sex, county but combined stratification not publicly available
-     

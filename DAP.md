@@ -1,5 +1,7 @@
 # Drug assistance programs
 
+(note: this information is replicated later. we can either keep the information here or in each DAP section)
+
 ## AIDS drug assistance program (ADAP)
 - Originally conceived to pay for HIV treatment (ART) for people living with HIV who couldn't afford it
 - Federally funded, but state-administered
@@ -8,7 +10,7 @@
 - Program goal remains the same (support access to ART), but benefits have changed
 
 ## Washington State ADAP
-- Benefits: 
+- Benefits:
     + Provides assistance in acquiring insurance
     + Pays insurance premiums
     + Pays client-cost of HIV-related medications and healthcare services (deductibles, cost-sharing, co-pays)
@@ -18,7 +20,7 @@
     + Currently uninsired, self-insured, employer-sponsored insurance
     + Not enrolled in Medicaid
 
-## Washington State PrEP drug assistance program (PrEP-DAP): 
+## Washington State PrEP drug assistance program (PrEP-DAP):
 - Goal is to support access to PrEP for at-risk HIV-negative individuals
 - Fully state funded; Washington state was the first to implement
 - Gilead (pharmaceutical company) already provides patient drug co-pay assistance
@@ -31,4 +33,3 @@
 - [Eligibility](https://www.doh.wa.gov/Portals/1/Documents/Pubs/150-082-PayingForPrEPDecisionTree.pdf) depends on the income and insurance of the individual
     + Not enrolled in Medicaid (which covers PrEP)
     + No income cut-off at this time
-    
