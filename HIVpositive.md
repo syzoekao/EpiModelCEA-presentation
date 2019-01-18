@@ -214,10 +214,13 @@ note: VS = viral suppression
 
 ## <div id="ADAPcost">ADAP cost</div>
 * Client costs
-    - Insurance premium (+)
-    - ART out of pocket costs coverage (+)
-    - Healthcare out of pocket cost coverage (select services) (+)
+    - Insurance premium (if insurance is ADAP-sponsored)
+    - Copay, coinsurance, deductible for:
+      - ART
+      - HIV-related medical services
+      - Other medical services
 * Assessment cost
+* Overhead
 
 
 **Questions**
