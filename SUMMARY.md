@@ -11,6 +11,6 @@
     - [PrEP-DAP and care continuum](HIVnegative.md#PDAPandContinuum)
     - [PrEP-DAP recertification](HIVnegative.md#PDAPrecertify)
     - [Costs](HIVnegative.md#PDAPcost)
-* [Scenarios](Scenarios.md)
+* [Potential Scenarios](Scenarios.md)
 * [Progress and Future Direction](Timeline.md)
 * [Appendix](data.md)
