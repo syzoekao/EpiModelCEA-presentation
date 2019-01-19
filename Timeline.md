@@ -4,65 +4,49 @@
 
 * We have developed modules to integrate CEA components in the EpiModelHIV framework. 
     - We are testing and documenting these modules now.
-* We have identified the data sources for the parameters in the model. 
+* We have developed an analysis plan of the client data for both ADAP and PrEP-DAP. 
 
 
 ## Timeline 2019
 
 <table>
-    <col width="5">
-    <col width="200">
 <tr>
-    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Month</strong></font></th>
     <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Tasks</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Q1</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Q2</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Q3</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Q4</strong></font></th>
 </tr>
 
 <tr>
-    <td> January </td><td> XX </td> 
+    <td bgcolor="#FFFFFF">Analyzing claims data</td>
+    <td bgcolor="#808080"></td> 
+    <td bgcolor="#808080"></td> 
+    <td bgcolor="#FFFFFF"></td> 
+    <td bgcolor="#FFFFFF"></td> 
 </tr>
 
 <tr>
-    <td> February </td><td> XX </td> 
+    <td bgcolor="#FFFFFF">Parameterize the model</td>
+    <td bgcolor="#FFFFFF"></td> 
+    <td bgcolor="#808080"></td> 
+    <td bgcolor="#FFFFFF"></td> 
+    <td bgcolor="#FFFFFF"></td> 
 </tr>
 
 <tr>
-    <td> March </td><td> XX </td> 
+    <td bgcolor="#FFFFFF">Calibrate/validate the model</td>
+    <td bgcolor="#FFFFFF"></td> 
+    <td bgcolor="#808080"></td> 
+    <td bgcolor="#808080"></td> 
+    <td bgcolor="#FFFFFF"></td>
 </tr>
 
 <tr>
-    <td> April </td><td> XX </td> 
+    <td>Evaluation scenarios</td>
+    <td bgcolor="#FFFFFF"></td> 
+    <td bgcolor="#FFFFFF"></td> 
+    <td bgcolor="#808080"></td> 
+    <td bgcolor="#808080"></td>
 </tr>
-
-<tr>
-    <td> May </td><td> XX </td> 
-</tr>
-
-<tr>
-    <td> June </td><td> XX </td> 
-</tr>
-
-<tr>
-    <td> July </td><td> XX </td> 
-</tr>
-
-<tr>
-    <td> August </td><td> XX </td> 
-</tr>
-
-<tr>
-    <td> September </td><td> XX </td> 
-</tr>
-
-<tr>
-    <td> October </td><td> XX </td> 
-</tr>
-
-<tr>
-    <td> November </td><td> XX </td> 
-</tr>
-
-<tr>
-    <td> December </td><td> XX </td> 
-</tr>
-
 </table>
