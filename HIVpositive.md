@@ -92,13 +92,13 @@
 
 
 ## <div id="ADAPcost">ADAP cost</div>
-* Client costs
+* Client costs (data source: WADOH claims data)
     - Insurance premium (if insurance is ADAP-sponsored)
     - Copay, coinsurance, deductible for:
       - ART
       - HIV-related medical services
       - Other medical services
-* Assessment cost
+* Assessment cost (data source: expert's opinion)
 * Overhead
 
 

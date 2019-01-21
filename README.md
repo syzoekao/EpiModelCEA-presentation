@@ -1,7 +1,7 @@
 # Agenda
 * [Objective](objective.md)
 * [Individual attributes/demographics](Demographics.md)
-* [HIV-positive](HIVpositive.md)
+* [People living with HIV/AIDS](HIVpositive.md)
     - [ADAP enrollment](HIVpositive.md#ADAPenroll)
     - [ADAP recertification](HIVpositive.md#ADAPrecertify)
     - [ADAP influences outcomes](HIVpositive.md#ADAPoutcome)

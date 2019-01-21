@@ -14,14 +14,14 @@
 
 ![PrEPcontinuum](figures/PrEPcontinuum.png)
 
-* **Recommended**: PrEP is recommended for people who meet the following criteria:
+* *Recommended*: PrEP is recommended for people who meet the following criteria:
     - Diagnosed with rectal gonorrhea or syphilis in the past 12 months.
     - Ongoing sexual relationships with HIV+ partners who are not virally suppressed or not on ART
-* **Discussed**: Providers should discuss use of PrEP with a person who meets the following criteria:
+* *Discussed*: Providers should discuss use of PrEP with a person who meets the following criteria:
     - Have unprotected sex outside of mutually monogamous partnerships with a man who is HIV-.
     - Diagnosed with gonorrhea or chlamydia in the past 12 months.
     - Ongoing sexual partnerships with HIV+ who are virally suppressed.
-* **No PrEP indication**: does not meet criteria for "Recommend" or "Discuss"
+* *No PrEP indication*: does not meet criteria for "Recommend" or "Discuss"
 * Only individuals who are aware of and interested in PrEP can be enrolled in PrEP-DAP
 * PrEP-DAP could increase PrEP initiation and decrease PrEP stoppage. 
 
@@ -122,7 +122,8 @@ might want to put that first.
 
 ####Questions
 
-* Does everyone immediately initiate PrEP after enrollment?
+* How likely does an application meet the enrollment criteria of the PrEP-DAP? 
+* Does every enrollee immediately initiate PrEP after enrollment?
 
 ##<div id="PDAPrecertify">PrEP-DAP recertification</div>
 
@@ -159,13 +160,13 @@ might want to put that first.
 
 
 ## <div id="PDAPcost">PrEP-DAP cost</div>
-* Client costs
+* Client costs (data source: WADOH claims data)
     - Copays, coinsurance, and/or deductible for:
       - PrEP medication, after Gilead benefits are exhausted
       - Medical and lab visits
       - STI treatment
       - Other relevant healthcare (selective services)
-* Assessment cost
+* Assessment cost (data source: expert's opinion)
 * Overhead
 
 ####Questions
