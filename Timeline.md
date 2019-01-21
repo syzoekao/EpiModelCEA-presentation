@@ -2,9 +2,9 @@
 
 ## Progress
 
-* We have developed modules to integrate CEA components in the EpiModelHIV framework. 
+* We have developed modules to integrate CEA components in the EpiModelHIV framework.
     - We are testing and documenting these modules now.
-* We have developed an analysis plan of the client data for both ADAP and PrEP-DAP. 
+* We have developed an analysis plan of the client data for both ADAP and PrEP-DAP.
 
 
 ## Timeline 2019
@@ -20,33 +20,33 @@
 
 <tr>
     <td bgcolor="#FFFFFF">Analyzing claims data</td>
-    <td bgcolor="#808080"></td> 
-    <td bgcolor="#808080"></td> 
-    <td bgcolor="#FFFFFF"></td> 
-    <td bgcolor="#FFFFFF"></td> 
-</tr>
-
-<tr>
-    <td bgcolor="#FFFFFF">Parameterize the model</td>
-    <td bgcolor="#FFFFFF"></td> 
-    <td bgcolor="#808080"></td> 
-    <td bgcolor="#FFFFFF"></td> 
-    <td bgcolor="#FFFFFF"></td> 
-</tr>
-
-<tr>
-    <td bgcolor="#FFFFFF">Calibrate/validate the model</td>
-    <td bgcolor="#FFFFFF"></td> 
-    <td bgcolor="#808080"></td> 
-    <td bgcolor="#808080"></td> 
+    <td bgcolor="#808080"></td>
+    <td bgcolor="#808080"></td>
+    <td bgcolor="#FFFFFF"></td>
     <td bgcolor="#FFFFFF"></td>
 </tr>
 
 <tr>
-    <td>Evaluation scenarios</td>
-    <td bgcolor="#FFFFFF"></td> 
-    <td bgcolor="#FFFFFF"></td> 
-    <td bgcolor="#808080"></td> 
+    <td bgcolor="#FFFFFF">Parameterize the model</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#808080"></td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+</tr>
+
+<tr>
+    <td bgcolor="#FFFFFF">Calibrate/validate the model</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#808080"></td>
+    <td bgcolor="#808080"></td>
+    <td bgcolor="#FFFFFF"></td>
+</tr>
+
+<tr>
+    <td>Scenario evaluation</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#808080"></td>
     <td bgcolor="#808080"></td>
 </tr>
 </table>
