@@ -7,23 +7,19 @@
 + Insurance: cannot receive Medicaid or be eligible for Medicaid
 + Must obtain negative HIV test result within 14 days
 + Prescription: providers are required to certify the prescription
-+ PrEP indication is based on risk factors:
-    * Test positive for STIs (gonorrhea, chlamydia, and syphilis) in the last 12 months
-    * Unprotected sex outside of mutually monogamous relationship
-    * HIV+ partners
++ In the model, PrEP indication is a modified version of the WA PrEP Implementation Guidelines:
+  * *Recommend*: PrEP is recommended for people who meet the following criteria:
+      - Diagnosed with gonorrhea in the past 12 months.
+      - Ongoing sexual relationships with HIV+ partners who are not virally suppressed or not on ART
+  * *Discuss*: Providers should discuss use of PrEP with a person who meets the following criteria:
+      - Have unprotected anal sex outside of a mutually monogamous long-term partnership with a man who is HIV-
+      - Diagnosed with chlamydia in the past 12 months.
+      - Ongoing sexual partnerships with HIV+ partners who are virally suppressed.
+  * *No PrEP indication*: does not meet criteria for "Recommend" or "Discuss"
+* Assumption: Only individuals who are aware of and interested in PrEP can be enrolled in PrEP-DAP
 
 ![PrEPcontinuum](figures/PrEPcontinuum.png)
 
-* *Recommended*: PrEP is recommended for people who meet the following criteria:
-    - Diagnosed with rectal gonorrhea or syphilis in the past 12 months.
-    - Ongoing sexual relationships with HIV+ partners who are not virally suppressed or not on ART
-* *Discussed*: Providers should discuss use of PrEP with a person who meets the following criteria:
-    - Have unprotected sex outside of mutually monogamous partnerships with a man who is HIV-.
-    - Diagnosed with gonorrhea or chlamydia in the past 12 months.
-    - Ongoing sexual partnerships with HIV+ who are virally suppressed.
-* *No PrEP indication*: does not meet criteria for "Recommend" or "Discuss"
-* Only individuals who are aware of and interested in PrEP can be enrolled in PrEP-DAP
-* PrEP-DAP could increase PrEP initiation and decrease PrEP stoppage. 
 
 ####Parameters
 
@@ -37,7 +33,7 @@ might want to put that first.
     <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Parameter</strong></font></th>
     <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Data Source</strong></font></th>
     <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Stratification</strong></font></th>
-    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Question</strong></font></th>
+    <th bgcolor="#737CA1"><font COLOR="#FFFFFF"><strong>Notes/Questions</strong></font></th>
 </tr>
 
 <tr><td colspan=5 bgcolor="#E5E4E2"><i><b>PrEP Awareness, Indication, Interest</i></b></td></tr>
@@ -47,7 +43,7 @@ might want to put that first.
     <td> Percentage of HIV- people who are aware of PrEP </td>
     <td> WHPP </td>
     <td> Race, income, insurance, region </td>
-    <td> ? </td>
+    <td> None </td>
 </tr>
 
 <tr>
@@ -55,7 +51,7 @@ might want to put that first.
     <td> Percentage of those aware for whom PrEP is recommended </td>
     <td> WHPP </td>
     <td> Race, income, insurance, region </td>
-    <td> ? </td>
+    <td> Based on risk behavior in survey and current WA usage guidelines </td>
 </tr>
 
 <tr>
@@ -63,7 +59,7 @@ might want to put that first.
     <td> Percentage of those aware for whom PrEP should be discussed </td>
     <td> WHPP </td>
     <td> Race, income, insurance, region </td>
-    <td> ? </td>
+    <td> "" </td>
 </tr>
 
 <tr>
@@ -71,7 +67,7 @@ might want to put that first.
     <td> Percentage of people with each indication who are interested in taking PrEP </td>
     <td> WHPP </td>
     <td> Race, income, insurance, region </td>
-    <td> ? </td>
+    <td> "" </td>
 </tr>
 
 <tr><td colspan=5 bgcolor="#E5E4E2"><i><b>PrEP-DAP</i></b></td></tr>
@@ -79,17 +75,17 @@ might want to put that first.
 <tr>
     <td><i>s1, s2, s3</i></td>
     <td> Percentage of interested people with each indication who are assessed for PrEP-DAP </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> ? </td>
+    <td> Expert opinion, calibration </td>
+    <td> Race, income, insurance, region </td>
+    <td> Will be adjusted to match PrEP-DAP enrollment and assessment numbers</td>
 </tr>
 
 <tr>
     <td><i>e1, e2, e3</i></td>
     <td> Percentage of people who are eligible for PrEP-DAP among individuals who are assessed for PrEP-DAP</td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> ? </td>
+    <td> Expert opinion, calibration </td>
+    <td> Race, income, insurance, region </td>
+    <td> "" </td>
 </tr>
 
 <tr><td colspan=5 bgcolor="#E5E4E2"><i><b>PrEP uptake</i></b></td></tr>
@@ -97,46 +93,46 @@ might want to put that first.
 <tr>
     <td><i>u1, u2, u3</i></td>
     <td> PrEP uptake for people who are eligible for PrEP-DAP </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> ? </td>
+    <td> PrEP-DAP Client Survey </td>
+    <td> Race, income, PrEP indication </td>
+    <td> None </td>
 </tr>
 
 <tr>
     <td><i>v1, v2, v3</i></td>
     <td> PrEP uptake for people who are not eligible for PrEP-DAP </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> ? </td>
+    <td> WHPP </td>
+    <td> Race, income, indication </td>
+    <td> None </td>
 </tr>
 
 <tr>
     <td><i>w1, w2, w3</i></td>
     <td> PrEP uptake for people who are not assessed for PrEP-DAP </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> ? </td>
+    <td> WHPP </td>
+    <td> Race, income, indication </td>
+    <td> None </td>
 </tr>
 
 </table>
 
 ####Questions
 
-* How likely does an application meet the enrollment criteria of the PrEP-DAP? 
-* Does every enrollee immediately initiate PrEP after enrollment?
+* Does every enrollee immediately initiate PrEP after PrEP-DAP enrollment enrollment?
+* On average, what is the ratio of enrollments to applications for PrEP-DAP in a year?
 
 ##<div id="PDAPrecertify">PrEP-DAP recertification</div>
 
-####Recertification criteria 
-+ Frequency of recertification: every year
-+ Test: test HIV- in the past 90 days
-+ Proof of taking PrEP: NA
+####Recertification criteria
++ **Frequency of recertification**: every year
++ **Test**: must test HIV- in the past 90 days
++ **Proof of taking PrEP**: not required
 
 ####Recertification process
-+ PrEP-DAP enrollees go through a similar recertification process to ADAP enrollees. 
-+ However, the reasons of disenrollment (informing <font color='red'><i>p</i></font>) could be more complicated than disenrollment in ADAP: 
++ PrEP-DAP enrollees go through a similar recertification process to ADAP enrollees.
++ However, the reasons of disenrollment (informing <font color='red'><i>p</i></font>) could be more complicated than disenrollment in ADAP:
     * stopping PrEP
-    * no risk factors 
+    * no risk factors
     * do not meet the recertification criteria
 
 **Parameters**
@@ -152,11 +148,15 @@ might want to put that first.
 <tr>
     <td><i>p</i></td>
     <td> Probability of disenrollment </td>
-    <td> XX </td>
-    <td> XX </td>
-    <td> ? </td>
+    <td> WADOH claims data </td>
+    <td> Race, region </td>
+    <td> Calculated from average duration of enrollment. </td>
 </tr>
 </table>
+
+##<div id="PDAPoutcomes">Influence of PrEP-DAP on Outcomes</div>
+- We assume PrEP-DAP increases PrEP initiation and decreases PrEP stoppage
+- This leads to a longer duration of PrEP use among PrEP-DAP clients, on average
 
 
 ## <div id="PDAPcost">PrEP-DAP cost</div>
@@ -170,5 +170,3 @@ might want to put that first.
 * Overhead
 
 ####Questions
-
-* On average, what is the ratio of enrollments to applications for PrEP-DAP in a year?
